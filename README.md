@@ -5,6 +5,6 @@ El proyecto Bowser.css Library esta creada con el fin de ser utilizada en HTML, 
 
 # Integrantes:
 
-    1- José Antonio Martinez Jovel
+    1-José Antonio Martinez Jovel
     2-Brayan Josue Granados Villalobos
     3-René Alexander Barrera Flores
