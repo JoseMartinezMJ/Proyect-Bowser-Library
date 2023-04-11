@@ -1,5 +1,5 @@
 # Proyect-Bowser.css-Library
-Proyecto de desarrollo de una libreria CCS tipo Bootstrap utilizando paletas y diseños especificos 
+El proyecto Bowser.css Library esta creada con el fin de ser utilizada en HTML, esta inspirida en el personaje Bowser proveniente de Mario Brops. Haciendo uso de su propia paleta de colores y talves con iconos personalizados(Si encontramos).
 
 # Nombre de la libreria: Bowser
 
