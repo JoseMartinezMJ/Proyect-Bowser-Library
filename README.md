@@ -4,6 +4,7 @@ Proyecto de desarrollo de una libreria CCS tipo Bootstrap utilizando paletas y d
 # Nombre de la libreria: Bowser
 
 # Integrantes:
+
     1- José Antonio Martinez Jovel
     2-Brayan Josue Granados Villalobos
     3-René Alexander Barrera Flores
