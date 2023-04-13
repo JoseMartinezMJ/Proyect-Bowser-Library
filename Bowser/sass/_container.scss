@@ -1,11 +1,43 @@
+@use'color';
+//Variables de _container.scss
+$width: 100%;
+$height: 100vh;
+$grid: grid;
+$flex: flex;
+
+//Clases container
 .container{
-    width: 100%;
-    height: 100vh;
-    background-color: red;
+    width:$width;
+    height: $height;
+    margin: 0;
+    padding: 0;
 }
-.container-mobile{
-    width: 100%;
-    height: 100vh;
-    background-color: red;
-    display: flex;
+.mobile{
+    @extend.container;
+    @media screen and (max-width:376px) {
+        background: color.$red;
+    }   
+}
+.tablet{
+    @extend.container;
+    @media screen and (min-width:600px) {
+        background: color.$orange;
+    }
+}
+.laptop{
+    @extend.container;
+    @media screen and (min-width:992px) {
+        background: color.$blue;
+    }
+}
+.desktop{
+    @extend.container;
+    @media screen and (min-width:1200px) {
+        background: color.$yellow;
+    }
+}
+
+//Flex
+.flex{
+    display: $flex;
 }
