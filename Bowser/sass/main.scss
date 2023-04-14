@@ -1,1 +1,3 @@
-
+@use 'reset';
+@use 'container';//Llamado al archivo parcial _container.scss
+@use 'grid';
