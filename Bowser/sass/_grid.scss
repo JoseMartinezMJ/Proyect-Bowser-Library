@@ -1,55 +1,66 @@
-//Variables de _grid.scss
-$grid: grid;
-$col1: 1fr;
-$col2: 1fr 1fr;
-$col3: 1fr 1fr 1fr;
-$col4: 1fr 1fr 1fr 1fr;
-$col5: 1fr 1fr 1fr 1fr 1fr;
-$col6: 1fr 1fr 1fr 1fr 1fr 1fr;
-//GRID
+@use 'variables';
+//ESTILOS GRID DE BOWSER
 .grid{
-    display: $grid;   
+    display: variables.$grid;   
 }
 .grid1{
-    display: $grid;
+    display: variables.$grid;
     @extend.col1;    
 }
 .grid2{
-    display: $grid;
+    display:variables.$grid;
     @extend.col2;    
 }
 .grid3{
-    display: $grid;
+    display:variables.$grid;
     @extend.col3;    
 }
 .grid4{
-    display: $grid;
+    display:variables.$grid;
     @extend.col4;    
 }
 .grid5{
-    display: $grid;
+    display: variables.$grid;
     @extend.col5;    
 }
 .grid6{
-    display: $grid;
+    display: variables.$grid;
     @extend.col6;    
 }
 
 .col1{
-    grid-template-columns: $col1;
+    grid-template-columns: variables.$col1;
 }
 .col2{
-    grid-template-columns: $col2;
+    grid-template-columns: variables.$col2;
 }
 .col3{
-    grid-template-columns: $col3;
+    grid-template-columns: variables.$col3;
 }
 .col4{
-    grid-template-columns: $col4;
+    grid-template-columns: variables.$col4;
 }
 .col5{
-    grid-template-columns: $col5 ;
+    grid-template-columns: variables.$col5 ;
 }
 .col6{
-    grid-template-columns: $col6;
+    grid-template-columns: variables.$col6;
+}
+.row1{
+    grid-template-rows: variables.$row1;
+}
+.row2{
+    grid-template-rows: variables.$row2;
+}
+.row3{
+    grid-template-rows: variables.$row3;
+}
+.row4{
+    grid-template-rows: variables.$row4;
+}
+.row5{
+    grid-template-rows: variables.$row5;
+}
+.row6{
+    grid-template-rows: variables.$row6;
 }
