@@ -1,0 +1,7 @@
+//Funcion para ocultar y mostrar elementos
+@mixin display($paranetro){
+    display:$paranetro ;
+}
+@mixin visibility($paranetro){
+    visibility: $paranetro;
+}

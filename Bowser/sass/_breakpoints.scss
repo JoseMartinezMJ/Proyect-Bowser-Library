@@ -1,0 +1,11 @@
+@use './variables';
+@mixin breakpoints_min($parametro){
+    @media screen and (min-width: map-get(variables.$breakpoints,$parametro)) {
+        @content;
+    }
+}
+@mixin breakpoints_max($parametro){
+    @media screen and (max-width: map-get(variables.$breakpoints,$parametro)) {
+        @content;
+    }
+}

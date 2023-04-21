@@ -1,0 +1,33 @@
+@import'variables';
+
+//Funcion que modifica texto
+@mixin modificartexto ($color,$size,$font,$font-weight){
+    color: $color;
+    font-size: $size;
+    font-family: $font;
+    font-weight: $font-weight;
+}
+//Clases directa de tipos de titulos predeterminados
+.titulo1{
+    @include modificartexto($black,$big,$fontfamily1,$font-weight1);
+}
+.titulo2{
+    @include modificartexto($black,$medium,$fontfamily2,$font-weight2);
+}
+.titulo3{
+    @include modificartexto($black,$small,$fontfamily3,$font-weight3)
+}
+//Clases directa de tipos de titulos predeterminados
+.p1{
+    @include modificartexto($grey,$smaller,$fontfamily1,none);
+    text-align: justify;
+    
+}
+.p2{
+    @include modificartexto($grey,$smaller,$fontfamily2,$font-weight2);
+    text-align: justify;
+}
+.p3{
+    @include modificartexto($grey,$smaller,$fontfamily3,$font-weight3);
+    text-align: justify;
+}

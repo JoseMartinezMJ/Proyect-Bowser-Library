@@ -1,0 +1,4 @@
+//funcion para dar sombras a elementos
+@mixin sombra($parametro){
+    box-shadow: $parametro;
+}
