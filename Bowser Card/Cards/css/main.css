@@ -1,0 +1,111 @@
+.card {
+  background-color: white;
+  width: 25rem;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px #000;
+}
+.card img {
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.card .card_content {
+  padding: 10px;
+}
+.card .card_title {
+  margin: 2px;
+  color: black;
+}
+.card .card_title_center {
+  margin: 2px;
+  color: black;
+  text-align: center;
+}
+.card .card_description {
+  margin: 0;
+  color: #999;
+}
+.card .card_description_center {
+  margin: 0;
+  text-align: center;
+  color: #999;
+}
+.card_dark {
+  background-color: black;
+}
+.card_dark .card_title {
+  color: white;
+}
+.card_transparent {
+  background: transparent;
+}
+.card_transparent .card_title {
+  color: white;
+}
+.card_transparent .card_description {
+  color: #000;
+}
+
+body {
+  font-family: "Poppins", Helvetica, sans-serif;
+  background-color: #ab99ca;
+  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  width: 25rem;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px #000;
+}
+.card img {
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.card .card_content {
+  padding: 10px;
+}
+.card .card_title {
+  margin: 2px;
+  color: black;
+}
+.card .card_title_center {
+  margin: 2px;
+  color: black;
+  text-align: center;
+}
+.card .card_description {
+  margin: 0;
+  color: #999;
+}
+.card .card_description_center {
+  margin: 0;
+  text-align: center;
+  color: #999;
+}
+.card_dark {
+  background-color: black;
+}
+.card_dark .card_title {
+  color: white;
+}
+.card_transparent {
+  background: transparent;
+}
+.card_transparent .card_title {
+  color: white;
+}
+.card_transparent .card_description {
+  color: #000;
+}
+
+/*# sourceMappingURL=main.css.map */

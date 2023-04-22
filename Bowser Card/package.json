@@ -1,0 +1,11 @@
+{
+  "name": "bowser-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./Cards/scss/main.scss ./Cards/css/main.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

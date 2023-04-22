@@ -1,0 +1,66 @@
+@use 'variables';
+$ancho:730px;
+
+.card {
+    background-color: white;
+    width: 25rem;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #000;
+
+    img{
+        width: 250px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .card_content {
+        padding: 10px;
+        
+    }
+
+    .card_title {
+        margin: 2px;
+        color: black;
+    }
+
+    .card_title_center {
+        margin: 2px;
+        color: black;
+        text-align: center;
+    }
+
+    .card_description {
+        margin: 0;
+        color: #999;
+    }
+
+    .card_description_center{
+        margin: 0;
+        text-align: center;
+        color: #999;
+    }
+
+    &_dark {
+
+        background-color: black;
+
+        .card_title {
+            color: white;
+        }
+    }
+
+    &_transparent{
+        background: transparent;
+
+        .card_title{
+            color: white;
+        }
+
+        .card_description{
+            color: #000;
+        }
+    }
+
+}
