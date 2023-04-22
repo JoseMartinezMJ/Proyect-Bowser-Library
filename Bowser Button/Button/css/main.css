@@ -1,0 +1,652 @@
+.btn-Bowser-LUZ {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: yellow;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Bowser-LUZ {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Bowser-LUZ:hover {
+  box-shadow: 0 0 10px green, 0 0 20px yellow, 0 0 20px blue;
+}
+
+.btn-Bowser-Abajo {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: yellow;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Bowser-Abajo {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Bowser-Abajo:hover {
+  box-shadow: 0 10px 0px #151c22, 0 0 0 red, 0 0 0 blue;
+}
+
+.btn-Bowser-left {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: yellow;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Bowser-left {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Bowser-left:hover {
+  box-shadow: 20px 10px 0 orange, 0 0 0 blue, 0 0 0 blue;
+}
+
+.btn-Bowser-hongo {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: yellow;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Bowser-hongo {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Bowser-hongo:hover {
+  box-shadow: 0px 10px 30px red, 0 0 0 red, 0 0 0 red;
+  color: white;
+}
+
+.btn-Mario-LUZ {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: red;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Mario-LUZ {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Mario-LUZ:hover {
+  box-shadow: 0 0 10px green, 0 0 20px yellow, 0 0 20px blue;
+}
+
+.btn-Mario-Abajo {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: red;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Mario-Abajo {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Mario-Abajo:hover {
+  box-shadow: 0 10px 0px #151c22, 0 0 0 red, 0 0 0 blue;
+}
+
+.btn-Mario-left {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: red;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Mario-left {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Mario-left:hover {
+  box-shadow: 20px 10px 0 orange, 0 0 0 blue, 0 0 0 blue;
+}
+
+.btn-Mario-hongo {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: red;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Mario-hongo {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Mario-hongo:hover {
+  box-shadow: 0px 10px 30px red, 0 0 0 red, 0 0 0 red;
+  color: white;
+}
+
+.btn-Peach-LUZ {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: lightpink;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Peach-LUZ {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Peach-LUZ:hover {
+  box-shadow: 0 0 10px green, 0 0 20px yellow, 0 0 20px blue;
+}
+
+.btn-Peach-Abajo {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: lightpink;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Peach-Abajo {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Peach-Abajo:hover {
+  box-shadow: 0 10px 0px #151c22, 0 0 0 red, 0 0 0 blue;
+}
+
+.btn-Peach-left {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: lightpink;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Peach-left {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Peach-left:hover {
+  box-shadow: 20px 10px 0 orange, 0 0 0 blue, 0 0 0 blue;
+}
+
+.btn-Peach-hongo {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: lightpink;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Peach-hongo {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Peach-hongo:hover {
+  box-shadow: 0px 10px 30px red, 0 0 0 red, 0 0 0 red;
+  color: white;
+}
+
+.btn-Luigi-LUZ {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: green;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Luigi-LUZ {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Luigi-LUZ:hover {
+  box-shadow: 0 0 10px green, 0 0 20px yellow, 0 0 20px blue;
+}
+
+.btn-Luigi-Abajo {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: green;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Luigi-Abajo {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Luigi-Abajo:hover {
+  box-shadow: 0 10px 0px #151c22, 0 0 0 red, 0 0 0 blue;
+}
+
+.btn-Luigi-left {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: green;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Luigi-left {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Luigi-left:hover {
+  box-shadow: 20px 10px 0 orange, 0 0 0 blue, 0 0 0 blue;
+}
+
+.btn-Luigi-hongo {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: green;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Luigi-hongo {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Luigi-hongo:hover {
+  box-shadow: 0px 10px 30px red, 0 0 0 red, 0 0 0 red;
+  color: white;
+}
+
+.btn-Toadette-LUZ {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: #151c22;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Toadette-LUZ {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Toadette-LUZ:hover {
+  box-shadow: 0 0 10px green, 0 0 20px yellow, 0 0 20px blue;
+}
+
+.btn-Toadette-Abajo {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: #151c22;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Toadette-Abajo {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Toadette-Abajo:hover {
+  box-shadow: 0 10px 0px #151c22, 0 0 0 red, 0 0 0 blue;
+}
+
+.btn-Toadette-left {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: #151c22;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Toadette-left {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Toadette-left:hover {
+  box-shadow: 20px 10px 0 orange, 0 0 0 blue, 0 0 0 blue;
+}
+
+.btn-Toadette-hongo {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: #151c22;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Toadette-hongo {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Toadette-hongo:hover {
+  box-shadow: 0px 10px 30px red, 0 0 0 red, 0 0 0 red;
+  color: white;
+}
+
+.btn-Toad-LUZ {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: blue;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Toad-LUZ {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Toad-LUZ:hover {
+  box-shadow: 0 0 10px green, 0 0 20px yellow, 0 0 20px blue;
+}
+
+.btn-Toad-Abajo {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: blue;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Toad-Abajo {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Toad-Abajo:hover {
+  box-shadow: 0 10px 0px #151c22, 0 0 0 red, 0 0 0 blue;
+}
+
+.btn-Toad-left {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: blue;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Toad-left {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Toad-left:hover {
+  box-shadow: 20px 10px 0 orange, 0 0 0 blue, 0 0 0 blue;
+}
+
+.btn-Toad-hongo {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: blue;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Toad-hongo {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Toad-hongo:hover {
+  box-shadow: 0px 10px 30px red, 0 0 0 red, 0 0 0 red;
+  color: white;
+}
+
+.btn-Yoshi-LUZ {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: orange;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Yoshi-LUZ {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Yoshi-LUZ:hover {
+  box-shadow: 0 0 10px green, 0 0 20px yellow, 0 0 20px blue;
+}
+
+.btn-Yoshi-Abajo {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: orange;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Yoshi-Abajo {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Yoshi-Abajo:hover {
+  box-shadow: 0 10px 0px #151c22, 0 0 0 red, 0 0 0 blue;
+}
+
+.btn-Yoshi-left {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: orange;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Yoshi-left {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Yoshi-left:hover {
+  box-shadow: 20px 10px 0 orange, 0 0 0 blue, 0 0 0 blue;
+}
+
+.btn-Yoshi-hongo {
+  position: relative;
+  overflow: hidden;
+  transition: all 300ms ease;
+  background-color: orange;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: fantasy;
+  font-size: 15px;
+}
+@media (max-width: 919px) {
+  .btn-Yoshi-hongo {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+.btn-Yoshi-hongo:hover {
+  box-shadow: 0px 10px 30px red, 0 0 0 red, 0 0 0 red;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */

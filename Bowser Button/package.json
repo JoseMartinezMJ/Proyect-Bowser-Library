@@ -1,0 +1,11 @@
+{
+  "name": "bowser-button",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./Button/scss/main.scss ./Button/css/main.css"
+  },
+  "author": "rene",
+  "license": "ISC"
+}
