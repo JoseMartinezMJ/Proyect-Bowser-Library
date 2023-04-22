@@ -1,0 +1,214 @@
+.Bowser-alert {
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 3px;
+}
+.Bowser-alert.lados {
+  border-radius: 80rem 0rem 80rem 0rem;
+}
+.Bowser-alert.reco {
+  border: dashed;
+}
+.Bowser-alert.second {
+  border-radius: 25rem 25rem 50rem 50rem;
+}
+.Bowser-alert.imagen {
+  background-size: 10%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT44CdmvHTbkIJYTePpJg_6maBBnEyS2ZBj6w&usqp=CAU");
+}
+.Bowser-alert.alert-primero {
+  background: linear-gradient(to bottom, #F5C933, #F8DD56, #F8DD56, #F5C933);
+  border-color: black;
+  color: #000;
+}
+.Bowser-alert.alert-segundo {
+  background: linear-gradient(to bottom, #D12409, #E23418, #E23418, #D12409);
+  border-color: black;
+  color: #222121;
+}
+.Bowser-alert.alert-tercero {
+  background: linear-gradient(to bottom, #151312, #B7B2B1, #B7B2B1, #151312);
+  border-color: black;
+  color: #000;
+}
+.Bowser-alert.alert-cuarto {
+  background: linear-gradient(to bottom, #184E75, #0E7ED1, #0E7ED1, #184E75);
+  border-color: black;
+  color: #000;
+}
+.Bowser-alert.alert-quinto {
+  background: linear-gradient(to bottom, #B79409, #DFC768, #DFC768, #B79409);
+  border-color: black;
+  color: #000;
+}
+.Bowser-alert.alert-sexto {
+  background: linear-gradient(to bottom, #4CD012, #53C222, #53C222, #4CD012);
+  border-color: black;
+  color: #000;
+}
+.Bowser-alert.alert-septimo {
+  background: linear-gradient(to bottom, #E159C3, #F8A2F2, #F8A2F2, #E159C3);
+  border-color: black;
+  color: #000;
+}
+.Bowser-alert.alert-octavo {
+  background: linear-gradient(to bottom, #F20B22, #DD0E23, #DD0E23, #F20B22);
+  border-color: black;
+  color: #000;
+}
+.Bowser-alert.alert-noveno {
+  background: linear-gradient(to bottom, #935311, #864909, #864909, #935311);
+  border-color: black;
+  color: #000;
+}
+.Bowser-alert.alert-decimo {
+  background: linear-gradient(to bottom, #ABC80F, #7C8F11, #7C8F11, #ABC80F);
+  border-color: black;
+  color: #000;
+}
+
+.Bowser-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #090304;
+  border: solid #000 0.1rem;
+  border-radius: 0.25rem;
+}
+.Bowser-badge.ladored {
+  border-radius: 0rem 0rem 10rem 10rem;
+}
+.Bowser-badge.ladoredab {
+  border-radius: 10rem 10rem 0rem 0rem;
+}
+.Bowser-badge.dashed {
+  border: dashed;
+}
+.Bowser-badge.sess {
+  border: outset;
+}
+.Bowser-badge.badges-primero {
+  background: linear-gradient(to bottom, #F5C933, #F8DD56, #F8DD56, #F5C933);
+  border-color: black;
+  color: #000;
+}
+.Bowser-badge.badges-segundo {
+  background: linear-gradient(to bottom, #D12409, #E23418, #E23418, #D12409);
+  border-color: black;
+  color: #222121;
+}
+.Bowser-badge.badges-tercero {
+  background: linear-gradient(to bottom, #151312, #B7B2B1, #B7B2B1, #151312);
+  border-color: black;
+  color: #000;
+}
+.Bowser-badge.badges-cuarto {
+  background: linear-gradient(to bottom, #184E75, #0E7ED1, #0E7ED1, #184E75);
+  border-color: black;
+  color: #000;
+}
+.Bowser-badge.badges-quinto {
+  background: linear-gradient(to bottom, #B79409, #DFC768, #DFC768, #B79409);
+  border-color: black;
+  color: #000;
+}
+.Bowser-badge.badges-sexto {
+  background: linear-gradient(to bottom, #4CD012, #53C222, #53C222, #4CD012);
+  border-color: black;
+  color: #000;
+}
+.Bowser-badge.badges-septimo {
+  background: linear-gradient(to bottom, #E159C3, #F8A2F2, #F8A2F2, #E159C3);
+  border-color: black;
+  color: #000;
+}
+.Bowser-badge.badges-octavo {
+  background: linear-gradient(to bottom, #F20B22, #DD0E23, #DD0E23, #F20B22);
+  border-color: black;
+  color: #000;
+}
+.Bowser-badge.badges-noveno {
+  background: linear-gradient(to bottom, #935311, #864909, #864909, #935311);
+  border-color: black;
+  color: #000;
+}
+.Bowser-badge.badges-decimo {
+  background: linear-gradient(to bottom, #ABC80F, #7C8F11, #7C8F11, #ABC80F);
+  border-color: black;
+  color: #000;
+}
+
+.Bowser-navbar {
+  background-color: #B1181F;
+  color: #fff;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding: 1%;
+  width: 98%;
+  max-width: 1700px;
+}
+.Bowser-navbar .Bowser-navbar-brand {
+  color: #ff8e06;
+  font-size: 1.5rem;
+}
+.Bowser-navbar .Bowser-navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.Bowser-navbar .Bowser-nav-item {
+  margin-left: 1rem;
+  background-color: #fff;
+  width: 6rem;
+  height: 2rem;
+  text-align: center;
+  border: solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Bowser-navbar .Bowser-nav-item:hover {
+  background-color: #B1181F;
+  cursor: pointer;
+}
+.Bowser-navbar .Bowser-nav-link {
+  color: #ff8e06;
+  text-decoration: none;
+}
+.Bowser-navbar .Bowser-nav-link:hover {
+  color: #ccc;
+}
+.Bowser-navbar .Bowser-navbar-brand-input {
+  height: 2rem;
+  width: 35rem;
+  background-color: #fff;
+  border: solid #000;
+  color: #000;
+}
+.Bowser-navbar .Bowser-navbar-brand-input:hover {
+  box-shadow: 0px 5px 0px 1px;
+  box-shadow: 0px 0px 8px 1px #F5C933;
+}
+
+@media only screen and (max-width: 800px) {
+  .Bowser-navbar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Bowser-navbar-nav {
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+  .Bowser-nav-item {
+    margin: 1rem 0;
+  }
+  .Bowser-navbar-brand-input {
+    width: 100%;
+    max-width: 25rem;
+  }
+}/*# sourceMappingURL=style.css.map */

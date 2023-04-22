@@ -1,0 +1,142 @@
+// Variables
+$Bowser-navbar-background: #B1181F;
+$Bowser-navbar-color: #fff;
+$Bowser-navbar-brand-color: #ff8e06;
+$Bowser-navbar-link-color: #ff8e06;
+$Bowser-navbar-link-hover-color: #ccc;
+$Bowser-navbar-flex:flex;
+$Bowser-navbar-relative: relative;
+$Bowser-navbar-space-between:space-between;
+$Bowser-navbar-paddin1:1%;
+$Bowser-navbar-width1:98%;
+$Bowser-navbar-resposive-max:1700px;
+$Bowser-navbar-brand-font:1.5rem;
+$Bowser-navbar-nav-flex:flex;
+$Bowser-navbar-nav-flex-end:flex-end;
+$Bowser-navbar-nav-none:none;
+$Bowser-navbar-nav-margin:0;
+$Bowser-navbar-nav-padding2:0;
+$Bowser-navbar-item-margin-left: 1rem;
+$Bowser-navbar-item-background-color:#fff;
+$Bowser-navbar-item-width3:6rem;
+$Bowser-navbar-item-height3:2rem;
+$Bowser-navbar-item-centrar:center;
+$Bowser-navbar-item-border:solid #000f;
+$Bowser-navbar-item-flex:flex;
+$Bowser-navbar-item-items:center;
+$Bowser-navbar-item-justify-content:center;
+$Bowser-navbar-item-hover-back: #B1181F;
+$Bowser-navbar-item-hover-pointer:pointer;
+$Bowser-navbar-link-none:none;
+$Bowser-navbar-brand-input-height4:2rem;
+$Bowser-navbar-brand-input-width4:35rem;
+$Bowser-navbar-brand-input-background:#fff;
+$Bowser-navbar-brand-input-border:solid #000;
+$Bowser-navbar-brand-input-color:#000;
+$Bowser-navbar-brand-hover-box:0px 5px 0px 1px;
+$Bowser-navbar-brand-hover-box2:0px 0px 8px 1px #F5C933;
+$Bowser-navbar-r-center:center;
+
+$Bowser-navbar-r:column;
+$Bowser-navbar-r-align-center:center;
+$Bowser-navbar-r-margin-top:2rem;
+$Bowser-navbar-r-flexdirection:column;
+$Bowser-navbar-item-r-margin:1rem 0;
+$Bowser-navbar-item-r-width1:100%;
+$Bowser-navbar-item-r-maxwidth:25rem;
+
+//$Bowser-navbar-brand-hover-color: solid #0B7D36 ;
+// Navbar
+.Bowser-navbar {
+  background-color: $Bowser-navbar-background;
+  color: $Bowser-navbar-color;
+  display: $Bowser-navbar-flex;
+  position:$Bowser-navbar-relative;
+  justify-content: $Bowser-navbar-space-between;
+  padding:$Bowser-navbar-paddin1;
+  width: $Bowser-navbar-width1;
+  max-width:$Bowser-navbar-resposive-max;
+
+  // Brand
+.Bowser-navbar-brand {
+  color: $Bowser-navbar-brand-color;
+  font-size: $Bowser-navbar-brand-font;
+  
+}
+
+// Navbar links
+.Bowser-navbar-nav {
+  display: $Bowser-navbar-nav-flex;
+  justify-content: $Bowser-navbar-nav-flex-end;
+  list-style: $Bowser-navbar-nav-none;
+  margin: $Bowser-navbar-nav-margin;
+  padding:  $Bowser-navbar-nav-padding2;
+}
+
+.Bowser-nav-item {
+  margin-left:$Bowser-navbar-item-margin-left;
+  background-color: $Bowser-navbar-item-background-color;
+  width: $Bowser-navbar-item-width3;
+  height: $Bowser-navbar-item-height3;
+  text-align: $Bowser-navbar-item-centrar;
+  border: $Bowser-navbar-item-border;
+  display: $Bowser-navbar-item-flex;
+  align-items: $Bowser-navbar-item-items;
+  justify-content: $Bowser-navbar-item-justify-content;
+
+  &:hover {
+    background-color: $Bowser-navbar-item-hover-back;
+    cursor: $Bowser-navbar-item-hover-pointer;
+  }
+}
+.Bowser-nav-link {
+  color: $Bowser-navbar-link-color;
+  text-decoration:  $Bowser-navbar-link-none;
+  
+  &:hover {
+    color: $Bowser-navbar-link-hover-color;
+  }
+}
+
+.Bowser-navbar-brand-input{
+    height: $Bowser-navbar-brand-input-height4;
+    width: $Bowser-navbar-brand-input-width4;
+    background-color: $Bowser-navbar-brand-input-background;
+    border: $Bowser-navbar-brand-input-border;
+    color: $Bowser-navbar-brand-input-color;
+    &:hover {
+        //border: $Bowser-navbar-brand-hover-color;
+        box-shadow: $Bowser-navbar-brand-hover-box;
+        box-shadow: $Bowser-navbar-brand-hover-box2;
+        
+      }
+
+}
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .Bowser-navbar {
+      flex-direction: $Bowser-navbar-r;
+      align-items: $Bowser-navbar-r-center;
+      justify-content: $Bowser-navbar-r-align-center;
+    }
+  
+    .Bowser-navbar-nav {
+      margin-top: $Bowser-navbar-r-margin-top;
+      flex-direction: $Bowser-navbar-r-flexdirection;
+    }
+  
+    .Bowser-nav-item {
+      margin: $Bowser-navbar-item-r-margin;
+    }
+  
+    .Bowser-navbar-brand-input{
+      width: $Bowser-navbar-item-r-width1;
+      max-width: $Bowser-navbar-item-r-maxwidth;
+    }
+  }
+
+
