@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOWSER</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container-fluid -grid -col1 -row3">
+      <!--
+        PARTE DEL EMCABEZADO PARA EL MENU
+      -->
+      <div class="header">
+        <section id="Inicio">
+          <nav class="nav">
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <a href="#" class="enlace">
+              <img src="./img/Logo.png" alt="" class="logo" />
+            </a>
+            <ul class="lista-desordenada">
+              <li class="item"><a class="active a" href="#Inicio">Inicio</a></li>
+              <li class="item"><a href="#Introduccion" class="a">Introducción</a></li>
+              <li class="item"><a href="#Diseño" class="a">Diseño</a></li>
+              <li class="item"><a href="#Componentes" class="a">Componentes</a></li>
+            </ul>
+          </nav>
+        </section>
+      </div>
+      <!-- 
+        PARTE PARA AGREGAR TODO EL CONTENIDO
+      -->
+      <div class="contenido">
+        <!--
+          Parte de Inicio 
+        -->
+        <div class="container-fluid">
+          <center>
+            <img src="./img/Library.png" alt="" style="width: 100%; height: auto; border-radius: 30px;">
+          </center>
+        </div>
+        <section id="Introduccion">
+          <br>
+          <hr>
+          <h1 class="titulo1">Introducción</h1>
+          <br>
+          <p class="p1"> Comience con Bowser Library, diseñada con SASS.Donde obtine diseños establecidos para la creación de paginas webs. El funcionamineto con CSS por sí solo puede ser divertido, pero las hojas de estilo son cada vez más grandes, más complejas y más difíciles de mantener. Aquí es donde un preprocesador puede ayudar. Sass tiene características que aún no existen en CSS , como anidamiento, mezclas, herencia y otras ventajas ingeniosas que lo ayudan a escribir  CSS SÓLIDO Y FÁCIL DE MANTENER.</p>
+          <br>
+          <p class="p1">Bowser Library es framework de diseño web de codigo abierto, que es utlizado para la creacion de sitios webs y aplicaciones moviles con una apariencia moderna, divertida y interacctiva. Desarrollado por un grupo de desarrolladores pequeños.</p>
+          <br>
+          <p class="p1">Bowser Library ofrece una amplia gama de estilos y componentes predefinidos que facilitan la creación rapida y sencilla de interfaces de usuario atractivas y responsivas. Con esta libreria, los desarrolladores web pueden aprovechar un conjunto de reglas de diseño y estilos predefinidos para crear páginas web consistentes y estilizadas, lo que les permite ahorrar tiempo y esfuerzo en la creacion de diseños desde cero. Además Bowser es altamente personalizable y se integra facilmente con otros frameworks y bibliotecas, lo que lo convierte en una herramienta versátil y ampliamente utilizada en la comunidad de desarrollo web.</p>
+          <br>
+          <h1 class="titulo2">Acerca de SASS</h1>
+          <br>
+          <p class="p1">Sass (Syntactically Awesome Style Sheets) es un preprocesador de CSS que permite escribir hojas de estilo de manera más eficiente y organizada. Permite el uso de variables, anidamiento de selectores, mixins, funciones, entre otras características que no están disponibles en CSS puro.</p>
+          <br>
+          <p class="p1">Con Sass, se puede crear un archivo .scss (o .sass) que luego se compilará en un archivo .css válido. De esta manera, se pueden mantener las ventajas de la legibilidad del código y la modularidad, sin sacrificar la compatibilidad con los navegadores.</p>
+          <br>
+          <h1 class="titulo2">Acerca de Bootstrap </h1>
+          <br>
+          <p class="p1">Es uno de los frameworks de diseño web más populares y ampliamente utilizados en la industria, lo que significa que hay una gran cantidad de recursos y documentación disponible para aprender y utilizar este framework. Además, existe una amplia comunidad de desarrolladores y diseñadores que contribuyen a su desarrollo y mejora constante.</p>
+          <br>
+        </section>
+
+        <!--
+          Parte para diseño
+        -->
+        <section id="Diseño">
+          <hr>
+          <h1 class="titulo1">Diseño</h1>
+          <br>
+          <h1 class="titulo2">Breackpoints</h1>
+          <p class="p1">De manera general los breackpoints son puntos de interrupción para diferentes tipos de dipositivos moviles o ventanas.Pero es muy dificil crear un punto exacto. Bowser Library a tomado las misma disemsiones que Bootstrap.</p>
+          <br>
+          <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Breakpoint</th>
+                        <th>Class</th>
+                        <th>Dimensiones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Breakpoint">X-Small</td>
+                        <td data-label="Class">None</td>
+                        <td data-label="Dimensiones"><i rel="code">&lt;</i>576px</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Breackpoint">Small</td>
+                        <td data-label="Class">sm</td>
+                        <td data-label="Dimensiones"><i rel="code">&gt;</i>=576px</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Breakpoint">Medium</td>
+                        <td data-label="class">md</td>
+                        <td data-label="Dimensiones"><i rel="code">&gt;</i>=768px</td>
+                    </tr>
+                    <tr>
+                      <td data-label="Breackpoint">Large</td>
+                      <td data-label="Class">lg</td>
+                      <td data-label="Dimensiones"><i rel="code">&gt;</i>=992px</td>
+                  </tr>
+                  <tr>
+                      <td data-label="Breackpoint">Extra large</td>
+                      <td data-label="Class">xl</td>
+                      <td data-label="Dimensiones"><i rel="code">&gt;</i>=1200</td>
+                  </tr>
+                  <tr>
+                      <td data-label="Breackpoint">Extra extra large</td>
+                      <td data-label="Class">xxl</td>
+                      <td data-label="Dimensiones"><i rel="code">&gt;</i>=1400px</td>
+                  </tr>
+                </tbody>
+            </table>
+          </div>
+          <br>
+          <h1 class="titulo2">Sass</h1>
+          <p class="p1">Bowser Library a utilizado SASS para procesar el codigo css de toda nuestra libreria. Por lo tanto tiene un _archivo.scss (archivo parcial) con las siguientes funciones breackpoints.</p>
+          <div class="container-fluid">
+            <pre class="pre"><code class="code">
+              @use './variables';
+              @mixin breakpoints_min($parametro){
+                  @media screen and (min-width: map-get(variables.$breakpoints,$parametro)) {
+                      @content;
+                  }
+              }
+              @mixin breakpoints_max($parametro){
+                  @media screen and (max-width: map-get(variables.$breakpoints,$parametro)) {
+                      @content;
+                  }
+              }</code></pre>
+          </div>
+          <br>
+          <p class="p1">Bowser Library contiene un archivo llamado _variables.scss que contiene variables definidas tanto para colores, tamaños, tipografia que se pueden utilizar para el desarrolo tanto de clases y componentes de la libreria.</p>
+          <div class="container-fluid">
+            <pre class="pre"><code class="code">
+              //Tema de colores
+              $primary: #0d6efd;
+              $secondary:#adb5bd;
+              $success:#198754;
+              $danger:#dc3545;
+              $warning:#ffc107;
+              $info:#0dcaf0;
+              $ligth:#fff;
+              $dark:#000;
+              
+              //Colores
+              $white:#ffffff;
+              $red:#f8230f;
+              $blue:#2a12f0;
+              $green:#339b28;
+              $yellow:#ffff00;
+              $black:#000000;
+              $orange:#ff7624;
+              $grey:#2c3e50;
+              $greylight:#f3f3f3;
+              $blueblack:#151c22;
+              
+              //Tamaño de letras
+              $big: 60px;
+              $medium: 35px;
+              $small:20px;
+              $smaller: 10px;
+              //Tipo de letra
+              $fontfamily1:Arial, Helvetica, Verdana;
+              $fontfamily2:'Times New Roman', Times, serif;
+              $fontfamily3:Verdana, Geneva, Tahoma, sans-serif;
+              
+              //Grosor de letra
+              $font-weight1:bolder;
+              $font-weight2:bold;
+              $font-weight3:lighter;
+              
+              //breakpoints
+              $breakpoints: (
+                xs: 0px,
+                sm: 576px,
+                md: 768px,
+                lg: 992px,
+                xl: 1200px,
+                xxl: 1400px
+              );
+            </code></pre>
+          </div>
+          <br>
+          <p class="p1">Bowse library tiene la siguiente estructura:</p>
+          <br>
+          <div class="container-fluid">
+            <center>
+              <img src="./img/EstructuraBowser.png" alt="" style="width: 60%; height: auto; border-radius: 10px;">
+            </center>
+          </div>
+          <br>
+          <h1 class="titulo2">Contenedores</h1>
+          <p class="p1">Bowser tiene 7 estilos de contenedores que estan relacionado con los breakpoints por lo cual se presenta la siguiente tabla:</p>
+          <br>
+          <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Class</th>
+                        <th>X-Small <br><i rel="code">&lt;</i>576px</th>
+                        <th>Small <br><i rel="pre">&gt;</i>=576px</th>
+                        <th>Medium <br><i rel="pre">&gt;</i>=768px</th>
+                        <th>Large <br><i rel="pre">&gt;</i>=992px</th>
+                        <th>Extra large <br><i rel="pre">&gt;</i>=1200px</th>
+                        <th>Extra extra large <br><i rel="pre">&gt;</i>=1400px</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Class">.container</td>
+                        <td data-label="X-Small">100%</td>
+                        <td data-label="Small">540px</td>
+                        <td data-label="Medium">720px</td>
+                        <td data-label="Large">960px</td>
+                        <td data-label="Extra large">1400px</td>
+                        <td data-label="Extra extra large">1320px</td>
+                        
+                    </tr>
+                    <tr>
+                        <td data-label="Class">.container-sm</td>
+                        <td data-label="X-Small">100%</td>
+                        <td data-label="Small">540px</td>
+                        <td data-label="Medium">720px</td>
+                        <td data-label="Large">960px</td>
+                        <td data-label="Extra large">1400px</td>
+                        <td data-label="Extra extra large">1320px</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Class">.container-md</td>
+                        <td data-label="X-Small">100%</td>
+                        <td data-label="Small">100%</td>
+                        <td data-label="Medium">720px</td>
+                        <td data-label="Large">960px</td>
+                        <td data-label="Extra large">1400px</td>
+                        <td data-label="Extra extra large">1320px</td>
+                    </tr>
+                    <tr>
+                      <td data-label="Class">.container-lg</td>
+                      <td data-label="X-Small">100%</td>
+                      <td data-label="Small">100%</td>
+                      <td data-label="Medium">100%</td>
+                      <td data-label="Large">960px</td>
+                      <td data-label="Extra large">1400px</td>
+                      <td data-label="Extra extra large">1320px</td>
+                    </tr>
+                    <tr>
+                      <td data-label="Class">.container-xl</td>
+                      <td data-label="X-Small">100%</td>
+                      <td data-label="Small">100%</td>
+                      <td data-label="Medium">100%</td>
+                      <td data-label="Large">100%</td>
+                      <td data-label="Extra large">1400px</td>
+                      <td data-label="Extra extra large">1320px</td>
+                    </tr>
+                    <tr>
+                      <td data-label="Class">.container-xxl</td>
+                      <td data-label="X-Small">100%</td>
+                      <td data-label="Small">100%</td>
+                      <td data-label="Medium">100%</td>
+                      <td data-label="Large">100%</td>
+                      <td data-label="Extra large">100%</td>
+                      <td data-label="Extra extra large">1320px</td>
+                   </tr>
+                   <tr>
+                    <td data-label="Class">.container-fluid</td>
+                    <td data-label="X-Small">100%</td>
+                      <td data-label="Small">100%</td>
+                      <td data-label="Medium">100%</td>
+                      <td data-label="Large">100%</td>
+                      <td data-label="Extra large">100%</td>
+                      <td data-label="Extra extra large">100%</td>
+                  </tr>
+                </tbody>
+            </table>
+          </div>
+          <br>
+          <p class="p1">El codigo que se muestra a continuación tiene relacin con los breackpoints. Ya que Bowser tiene un archivo llamado _container.scss que contiene los diferetes estilos de contenedores. Donde la diferencia es en el ancho que pueda tener el contenedor en relacion a los breackpoints.</p>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre">
+              <code class="code">
+                //Estilos de contenedores
+                  .container{...}
+                  .container-sm{...}
+                  .container-md{...}
+                  .container-lg{...}
+                  .container-xl{...}
+                  .container-xxl{...}
+                  .container-fluid{...}
+              </code>
+            </pre>
+          </div>
+          <br>
+          <p class="p1">Para ver el funcionamineto se les da el siguiente ejemplo:</p>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre">
+              <code class="code">
+                <i rel="pre">&lt;div class="container"&gt;&lt;/div&gt;
+                  &lt;div class="container-sm"&gt;&lt;/div&gt;
+                  &lt;div class="container-md"&gt;&lt;/div&gt;
+                  &lt;div class="container-lg"&gt;&lt;/div&gt;
+                  &lt;div class="container-xl"&gt;&lt;/div&gt;
+                  &lt;div class="container-xxl"&gt;&lt;/div&gt;
+                  &lt;div class="container-fluid"&gt;&lt;/div&gt;
+                </i>
+              </code>
+            </pre>
+          </div>
+          <br>
+          <h1 class="titulo2"> Filas y Columnas</h1>
+          <br>
+          <p class="p1">Bowser library trabaja el sistema de filas y columnas mediante contendores de tipo grid. Por lo cual la libreria tiene un archivo llamado _columnas-filas-grid.scss donde almacena funciones que ayudan a definir las columnas y filas. Ya que el archivo _columnas-filas-grid.scss proporciona sus funciones al archivo _grid.scss .</p>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre">
+              <code class="code">
+                _columnas-filas-grid.scss
+
+                @mixin col($col){
+                  grid-template-columns: $col;
+                }
+                @mixin row($row){
+                    grid-template-rows: $row;
+                }
+              </code>
+            </pre>
+
+          </div>
+          <br>
+          <p class="p1">Con lo antes mecionado en cuanto la relacion de los archivos _columnas-filas-grid.scss y _grid.scss. Tenemos que el el archivo _grid.scss contiene clases para columnas y para filas. Estas clases estan definidas por las funciones que contiene el archivo _columnas-filas-grid.scss. Bowser ha definido la cantidades de filas y columnas que puede tener un diseño. Por lo cual tendra un maximo de 4 columnas y un minimo de 1, en el caso de las filas es de la misma forma. Pero estas clases pueden ser modificadas en sus respectivos archivos. donde podra cambiar el ancho y alto que pueda tener una columna y una fila. ya que la libreria tiene definido como un tamaño estandar de 1fr.</p>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre">
+              <code class="code">
+                Archivo: _grid.scss
+                //CLASES PARA COLUMNAS
+                .-col1{.......}
+                .-col2{.......}
+                .-col3{.......}
+                .-col4{.......}
+                //CLASES PARA FILAS
+                .-row1{.......}
+                .-row2{.......}
+                .-row3{.......}
+                .-row4{.......}
+              </code>
+            </pre>
+          </div>
+          <br>
+          <p class="p1">Bowser library tambien establecio funciones para que un elemento de tipo grid abarque una area dentro de la cuadricula.Tambien incluye una funcion de espaciado para filas y columnas. Estas funciones pueden ser modificadas dentro del archivo _columnas-filas-grid.css . </p>
+          <div class="container-fluid">
+            <pre class="pre">
+              <code class="code">
+                Archivo: _columnas-filas-grid.scss
+
+                @mixin espaciado($col,$row){
+                  column-gap: $col;
+                  row-gap: $row;
+                }
+                @mixin area-col($inicio,$final){
+                    grid-column-start: $inicio;
+                    grid-column-end: $final;
+                }
+                @mixin area-row($inicio,$final){
+                    grid-row-start: $inicio;
+                    grid-row-end: $final;
+                }
+              </code>
+            </pre>
+          </div>
+          <br>
+          <p class="p1">Ahora para establecer que un contenedor sea de tipo grid, Bowser a creado una clase llamada -grid que esta en el archivo _grid.scss. Esta clase esta relacionada con un archivo llamado _ocultar-elementos.scss que contiene un funcion display.</p>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre">
+              <code class="code">
+                Archivo _grid.scss
+                @use'../clases_utilitarias/ocultar-elementos';
+
+                -grid{
+                  @include ocultar-elementos.display(grid);
+                }
+              </code>
+            </pre>
+          </div>
+          <br>
+        </section>
+        
+
+        <!--
+          Parte para los componentes
+        -->
+        <section id="Componentes">
+          <hr>
+          <h1 class="titulo1">Componentes</h1>
+          <br>
+          <h1 class="titulo2"> Botones</h1>
+          <br>
+          <p class="p1">Bowser Library trae consigo una de los mas divertido diseños de botones con diferentes colores y animaciones, personalizables y lo mejor, es que traen soporte para acciones con formularios,cuadros de dialogo, tamaños, estados y mucho más. ¡Solo en Bowser Library!</p>
+          <br>
+            <p class="p1">Diseño extravagante y llamativo para esas paginas que necesitan vida! Opcion perfecta con una animacion de colores hacia abajo, manteninedo siempre la esencia de Bowser.</p>
+          <br>
+          <div class="container-fluid">
+            <center>
+              <button class="btn-Bowser-Abajo">Soy un boton</button>
+              <button class="btn-Mario-Abajo">Soy un Boton</button>
+              <button class="btn-Peach-Abajo">Soy un Boton</button>
+              <button class="btn-Luigi-Abajo">Soy un Boton</button>
+              <button class="btn-Toadette-Abajo" style="color: white;">Soy un Boton</button>
+              <button class="btn-Toad-Abajo" style="color: white;">Soy un Boton</button>
+              <button class="btn-Yoshi-Abajo">Soy un Boton</button>
+            </center>
+          </div>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre"><code class="code">
+              <i rel="pre"><i rel="pre"> 
+                &lt;button class="btn-Bowser-Abajo"&gt;Soy un boton&lt;/button&gt;
+                &lt;button class="btn-Mario-Abajo"&gt;Soy un Boton&lt;/button&gt;
+                &lt;button class="btn-Peach-Abajo"&gt;Soy un Boton&lt;/button&gt;
+                &lt;button class="btn-Luigi-Abajo"&gt;Soy un Boton&lt;/button&gt;
+                &lt;button class="btn-Toadette-Abajo"&gt;Soy un Boton&lt;/button&gt;
+                &lt;button class="btn-Toad-Abajo"&gt;Soy un Boton&lt;/button&gt;
+                &lt;button class="btn-Yoshi-Abajo"&gt;Soy un Boton&lt;/button&gt;</i></i>
+            </code></pre>
+          </div>
+          <br>
+          <p class="p1">¡Esto apenas comienza! Consigo la Princesa Peach nos compartió consigo su esencia de luz brillante con este diseño:</p>
+          <br>
+          <div class="container-fluid">
+            <center>
+              <button class="btn-Bowser-LUZ">Soy un boton</button>
+              <button class="btn-Mario-LUZ">Soy un Boton</button>
+              <button class="btn-Peach-LUZ">Soy un Boton</button>
+              <button class="btn-Luigi-LUZ">Soy un Boton</button>
+              <button class="btn-Toadette-LUZ">Soy un Boton</button>
+              <button class="btn-Toad-LUZ">Soy un Boton</button>
+              <button class="btn-Yoshi-LUZ">Soy un Boton</button>
+            </center>
+          </div>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre"><code class="code">
+              <i rel="pre"><i rel="pre"> <i rel="pre">
+                &lt;button class="btn-Bowser-LUZ"&gt;Soy un boton&lt;/button&gt;
+                &lt;button class="btn-Mario-LUZ"&gt;Soy un Boton&lt;/button&gt;
+                &lt;button class="btn-Peach-LUZ"&gt;Soy un Boton&lt;/button&gt;
+                &lt;button class="btn-Luigi-LUZ"&gt;Soy un Boton&lt;/button&gt;
+                &lt;button class="btn-Toadette-LUZ"&gt;Soy un Boton&lt;/button&gt;
+                &lt;button class="btn-Toad-LUZ"&gt;Soy un Boton&lt;/button&gt;
+                &lt;button class="btn-Yoshi-LUZ"&gt;Soy un Boton&lt;/button&gt;</i></i></i>
+            </code></pre>
+          </div>
+          <br>
+          <p class="p1">¡Wow! ¡No son increibles estos diseños!? Yoshi vino desde Super Mario World para enseñarnos a no rendirnos y siempre ayudar a nuestros amigos. A continuacion su diseño: </p>
+          <br>
+          <div class="container-fluid">
+            <center>
+              <button class="btn-Bowser-left">Soy un boton</button>
+              <button class="btn-Mario-left">Soy un Boton</button>
+              <button class="btn-Peach-left">Soy un Boton</button>
+              <button class="btn-Luigi-left">Soy un Boton</button>
+              <button class="btn-Toadette-left">Soy un Boton</button>
+              <button class="btn-Toad-left">Soy un Boton</button>
+              <button class="btn-Yoshi-left">Soy un Boton</button>
+            </center>
+          </div>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre"><code class="code">
+              <i rel="pre"><i rel="pre"> <i rel="pre">
+                <i rel="pre"> 
+                  &lt;button class="btn-Bowser-left"&gt;Soy un boton&lt;/button&gt;
+                  &lt;button class="btn-Mario-left"&gt;Soy un Boton&lt;/button&gt;
+                  &lt;button class="btn-Peach-left"&gt;Soy un Boton&lt;/button&gt;
+                  &lt;button class="btn-Luigi-left"&gt;Soy un Boton&lt;/button&gt;
+                  &lt;button class="btn-Toadette-left"&gt;Soy un Boton&lt;/button&gt;
+                  &lt;button class="btn-Toad-left"&gt;Soy un Boton&lt;/button&gt;
+                  &lt;button class="btn-Yoshi-left"&gt;Soy un Boton&lt;/button&gt;</i>
+              </i></i></i>
+            </code></pre>
+          </div>
+          <br>
+          <p class="p1">Mario vino a compartir su experiencia como plomero y nos conto sus aventuras, asi que nosotros los plasmamos en estos diseños elegante, para esos momentos de "pasar desapercibido":</p>
+          <br>
+          <div class="container-fluid">
+            <center>
+              <button class="btn-Bowser-hongo">Soy un boton</button>
+              <button class="btn-Mario-hongo">Soy un Boton</button>
+              <button class="btn-Peach-hongo">Soy un Boton</button>
+              <button class="btn-Luigi-hongo">Soy un Boton</button>
+              <button class="btn-Toadette-hongo">Soy un Boton</button>
+              <button class="btn-Toad-hongo">Soy un Boton</button>
+              <button class="btn-Yoshi-hongo">Soy un Boton</button>
+            </center>
+          </div>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre"><code class="code">
+              <i rel="pre"><i rel="pre"> <i rel="pre">
+                <i rel="pre"> <i rel="pre"> 
+                  &lt;button class="btn-Bowser-hongo"&gt;Soy un boton&lt;/button&gt;
+                  &lt;button class="btn-Mario-hongo"&gt;Soy un Boton&lt;/button&gt;
+                  &lt;button class="btn-Peach-hongo"&gt;Soy un Boton&lt;/button&gt;
+                  &lt;button class="btn-Luigi-hongo"&gt;Soy un Boton&lt;/button&gt;
+                  &lt;button class="btn-Toadette-hongo"&gt;Soy un Boton&lt;/button&gt;
+                  &lt;button class="btn-Toad-hongo"&gt;Soy un Boton&lt;/button&gt;
+                  &lt;button class="btn-Yoshi-hongo"&gt;Soy un Boton&lt;/button&gt;</i></i>
+              </i></i></i>
+            </code></pre>
+          </div>
+          <br>
+          <h1 class="titulo2">Formularios y sus elementos</h1>
+          <p class="p1">Bowser Library trae consigo tambien la opcion de utilizar los Formularios. Estos traen sus opciones de diseño y componentes personalizables para crear una amplia variedad de formularios.</p>
+          <br>
+          <p class="p1">A continuacion presentamos diseños de Formularios</p>
+          <br>
+          <p class="p1">Tenemos como primer formulario un login.</p>
+          <br>
+          <div class="container-fluid">
+            <center>
+            <div class="container-form-login">
+              <h1>LOGIN</h1>
+              <label class="label-text">Nombre de usuario</label>
+              <div class="control">
+              <input type="text" placeholder="Escriba su nombre">
+              </div>
+              <label class="label-text">Contraseña</label>
+              <div class="control">
+                  <input type="password" placeholder="Escriba su contraseña">
+              </div>
+              <button class="btn-Yoshi-LUZ">Entrar</button>
+            </div>
+            </center>
+          </div>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre"><code class="code"><i rel="pre">
+              &lt;div class="container-form-login"&gt;
+              &lt;h1&gt;LOGIN&lt;/h1&gt;
+              &lt;label class="label-text"&gt;Nombre de usuario&lt;/label&gt;
+              &lt;div class="control"&gt;
+              &lt;input type="text" placeholder="Escriba su nombre"&gt;
+              &lt;/div&gt;
+              &lt;label class="label-text"&gt;Contraseña&lt;/label&gt;
+              &lt;div class="control"&gt;
+              &lt;input type="password" placeholder="Escriba su contraseña"&gt;
+              &lt;/div&gt;
+              &lt;button class="btn-Yoshi-LUZ"&gt;Entrar&lt;/button&gt;
+              &lt;/div&gt;</i> <i rel="pre"><i rel="pre"> <i rel="pre"><i rel="pre"> <i rel="pre"> 
+                 </i></i>
+              </i></i></i>
+            </code></pre>
+          </div>
+          <br>
+          <p class="p1">Y este es el segundo formulario que traemos en esta ocasion, ¡Dejanos saber si te gustaron para hacer más contenido parecido!.</p>
+          <br>
+          <div class="container-fluid">
+            <center>
+              <div class="container-form-datos">
+                <h1>Formulario de datos</h1> 
+                <div class="control">
+                  <label class="label-text">Nombre:</label>
+                  <input type="text" placeholder="Ingrese su nombre">
+                  <br>
+                  <label class="label-text">Direccion:</label>
+                  <input type="text" placeholder="Ingrese su direccion">
+                  <br>
+                  <label class="label-text">Teléfono</label>
+                  <input type="text" placeholder="Ingrese su teléfono">
+                  <br>
+                  <label class="label-text">Email:</label>
+                  <input type="email" placeholder="Ingrese su Email">
+                  <br>
+                  <label class="label-text">Sitio Web:</label>
+                  <br>
+                  <textarea class="textarea" placeholder="Inserte la URL"></textarea>
+                  <br>
+                  <button class="btn-Mario-left">Enviar</button>
+                </div>
+              </div>
+            </center>
+          </div>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre"><code class="code"><i rel="pre"><i rel="pre">
+              &lt;div class="container-form-datos"&gt;
+              &lt;h1&gt;Formulario de datos&lt;/h1&gt; 
+              &lt;div class="control"&gt;
+              &lt;label class="label-text"&gt;Nombre:&lt;/label&gt;
+              &lt;input type="text" placeholder="Ingrese su nombre"&gt;
+              &lt;br&gt;
+              &lt;label class="label-text"&gt;Direccion:&lt;/label&gt;
+              &lt;input type="text" placeholder="Ingrese su direccion"&gt;
+              &lt;br&gt;
+              &lt;label class="label-text"&gt;Teléfono&lt;/label&gt;
+              &lt;input type="text" placeholder="Ingrese su teléfono"&gt;
+              &lt;br&gt;
+              &lt;label class="label-text"&gt;Email:&lt;/label&gt;
+              &lt;input type="email" placeholder="Ingrese su Email"&gt;
+              &lt;br&gt;
+              &lt;label class="label-text"&gt;Sitio Web:&lt;/label&gt;
+              &lt;br&gt;
+              &lt;textarea class="textarea" placeholder="Inserte la URL"&gt;&lt;/textarea&gt;
+              &lt;br&gt;
+              &lt;button class="btn-Mario-left"&gt;Enviar&lt;/button&gt;
+              &lt;/div&gt;
+             &lt;/div&gt;
+             </i></i> <i rel="pre"><i rel="pre"> <i rel="pre"><i rel="pre"> <i rel="pre"> 
+                </i></i>
+             </i></i></i>
+           </code></pre>
+          </div>
+          <br>
+          <h1 class="titulo2">Elementos</h1>
+          <br>
+          <p class="p1">Como sabemos, cada formulario trae consigo su elemento y esto que hace posible la creacion del mismo, por este motivo Bowser Library tiene en sus manos algunos de los elementos basicos para los formularios.</p>
+          <br>
+          <h1 class="titulo2">Tarjetas</h1>
+          <br>
+          <p class="p1">Queremos seguir alegrandote por encontrar lo que buscabas y de esta manera a continuación te presentamos los cards o para los amigos "Tarjetas" con diseños basicos para su facil personalizacion.</p>
+          <br>
+          <div class="container-fluid">
+            <center>
+              <div class="card">
+                <img src="./img/toad.jpeg"  alt="">
+                <div class="card_content">
+                    <h2 class="card_title">TOAD</h2>
+                    <p class="card_description">Soy Toad, te brindare asistencia en lo que necesites</p>
+                </div>
+              </div>
+            </center>
+          </div>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre"><code class="code"><i rel="pre">
+              <i rel="pre">&lt;div class="card"&gt;
+                &lt;img src="./img/toad.jpeg"  alt=""&gt;
+                &lt;div class="card_content"&gt;
+                &lt;h2 class="card_title"&gt;Bowser&lt;/h2&gt;
+                &lt;p class="card_description"&gt;Soy Toad, te brindare asistencia en lo que necesites&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;/div&gt;</i>
+              </i> <i rel="pre"><i rel="pre"> <i rel="pre"><i rel="pre"> <i rel="pre"> 
+                 </i></i>
+              </i></i></i>
+            </code></pre>
+          </div>
+          <br>
+          <p class="p1">Y para todos aquellos amantes de la oscuridad, traemos el modo dark de nuestra:</p>
+          <br>
+          <div class="container-fluid">
+            <center>
+              <div class="card card_dark">
+                <img src="./img/bowser.png"  alt="">
+                <div class="card_content">
+                    <h2 class="card_title">Bowser</h2>
+                    <p class="card_description-dark">¡Necesito tener a la Princesa Peach!</p>
+                </div>
+              </div>
+            </center>
+          </div>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre"><code class="code"><i rel="pre">
+              <i rel="pre"><i rel="pre"> 
+                  &lt;div class="card card_dark"&gt;
+                  &lt;img src="./Bowser_Library/img/bowser.png"   alt=""&gt;
+                  &lt;div class="card_content"&gt;
+                  &lt;h2 class="card_title"&gt;Bowserx2&lt;/h2&gt;
+                  &lt;p class="card_description"&gt;¡Necesito tener a la Princesa Peach!&lt;/p&gt;
+                 &lt;/div&gt;
+                 &lt;/div&gt;</i> </i>
+              </i> <i rel="pre"><i rel="pre"> <i rel="pre"><i rel="pre"> <i rel="pre"> 
+                 </i></i>
+              </i></i></i>
+            </code></pre>
+          </div>
+          <br>
+          <p class="p1">Aqui intercambiamos la posicion de la imagen y el titulo, mostrando una card mas limpia para la vista.</p>
+          <br>
+          <div class="container-fluid">
+            <center>
+              <div class="card">
+                <div class="card_content">
+                  <h2 class="card_title_center">Peach is Amaizing</h2>
+                  <p class="card_description_center">Esta es una tarjeta para peach</p>
+                </div>
+                <img src="./img/peach.webp" alt="">
+              </div>
+            </center>
+          </div>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre"><code class="code"><i rel="pre">
+              <i rel="pre"><i rel="pre"> 
+                <i rel="pre">
+                  &lt;div class="card"&gt;
+                  &lt;div class="card_content"&gt;
+                  &lt;h2 class="card_title_center"&gt;Peach is Amaizing&lt;/h2&gt;
+                  &lt;p class="card_description_center"&gt;Esta es una tarjeta para peach&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;img src="./img/peach.webp" alt=""&gt;
+                  &lt;/div&gt;</i>
+                  </i> </i>
+              </i> <i rel="pre"><i rel="pre"> <i rel="pre"><i rel="pre"> <i rel="pre"> 
+                 </i></i>
+              </i></i></i>
+            </code></pre>
+          </div>
+          <br>
+          <p class="p1">Esta es una tarjeta invisible o transparente, por eso se puede llegar a confundir con su entorno, tiene complejo de camaleon.</p>
+          <br>
+          <div class="container-fluid">
+            <center>
+              <div class="card card_transparent">
+                <div class="card_content">
+                <div class="card_title-transparent">Yoshi</div>
+                <div class="card_description">
+                    Este es un lugar tranquilo para Yoshi
+                </div>
+                <img src="./img/yoshi.webp" alt="">
+              </div>
+            </center>
+          </div>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre"><code class="code"><i rel="pre">
+              <i rel="pre"><i rel="pre"><i rel="pre"><i rel="pre">
+                    &lt;div class="card card_transparent"&gt;
+                    &lt;div class="card_content"&gt;
+                    &lt;div class="card_title-transparent"&gt;Yoshi&lt;/div&gt;
+                    &lt;div class="card_description"&gt;
+                        Este es un lugar tranquilo para Yoshi
+                    &lt;/div&gt;
+                    &lt;img src="./img/yoshi.webp" alt=""&gt;
+                &lt;/div&gt;</i></i>
+                  </i> </i>
+              </i> <i rel="pre"><i rel="pre"> <i rel="pre"><i rel="pre"> <i rel="pre"> 
+                 </i></i>
+              </i></i></i>
+            </code></pre>
+          </div>
+          <br>
+          <!--
+            Parte de brayan
+          -->
+          <h1 class="titulo2">Alertas</h1>
+          <br>
+          <p class="p1">Proporcione mensajes de retroalimentación contextuales para
+            las acciones típicas de los usuarios con el puñado de mensajes de alerta,
+            en nuestra alerta de la pagina bowser obtendras 10 colores con la alerta
+            normal los cuales son basado en el juego de mario
+           </p>
+           <br>
+           <div class="container-fluid">
+            <center>
+              <div class="Bowser-alert alert-primero">esto es una alerta</div><br>
+              <div class="Bowser-alert alert-segundo">esto es una alerta</div><br>
+              <div class="Bowser-alert alert-tercero">esto es una alerta</div><br>
+              <div class="Bowser-alert alert-cuarto">esto es una alerta</div><br>
+              <div class="Bowser-alert alert-quinto">esto es una alerta</div><br>
+              <div class="Bowser-alert alert-sexto">esto es una alerta</div><br>
+              <div class="Bowser-alert alert-septimo">esto es una alerta</div><br>
+              <div class="Bowser-alert alert-octavo">esto es una alerta</div><br>
+              <div class="Bowser-alert alert-noveno">esto es una alerta</div><br>
+              <div class="Bowser-alert alert-decimo">esto es una alerta</div><br>
+            </center>
+           </div>
+           <br>
+           <div class="container-fluid">
+            <pre class="pre"><code class="code">
+              <i rel="pre">  &lt;div class="Bowser-alert alert-primero"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert alert-segundo"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert alert-tercero"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert alert-cuarto"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert alert-quinto"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert alert-sexto"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert alert-septimo"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert alert-octavo"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert alert-noveno"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert alert-decimo"&gt;esto es una alerta&lt;/div&gt;</i>
+            </code></pre>
+           </div>
+           <br>
+           <p class="p1">Ahora veras un estilo diferente en nuestro pagina para esta alerta se redondea de un lado para arriba y del otro hacia abajo</p>
+           <div class="container-fluid">
+            <center>
+              <div class="Bowser-alert lados alert-primero">esto es una alerta</div><br>
+              <div class="Bowser-alert lados alert-segundo">esto es una alerta</div><br>
+              <div class="Bowser-alert lados alert-tercero">esto es una alerta</div><br>
+              <div class="Bowser-alert lados alert-cuarto">esto es una alerta</div><br>
+              <div class="Bowser-alert lados alert-quinto">esto es una alerta</div><br>
+              <div class="Bowser-alert lados alert-sexto">esto es una alerta</div><br>
+              <div class="Bowser-alert lados alert-septimo">esto es una alerta</div><br>
+              <div class="Bowser-alert lados alert-octavo">esto es una alerta</div><br>
+              <div class="Bowser-alert lados alert-noveno">esto es una alerta</div><br>
+              <div class="Bowser-alert lados alert-decimo">esto es una alerta</div><br>
+            </center>
+           </div>
+           <br>
+           <div class="container-fluid">
+            <pre class="pre"><code class="code">
+              <i rel="pre"><i rel="pre">      &lt;div class="Bowser-alert lados alert-primero"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert lados alert-segundo"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert lados alert-tercero"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert lados alert-cuarto"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert lados alert-quinto"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert lados alert-sexto"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert lados alert-septimo"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert lados alert-octavo"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert lados alert-noveno"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert lados alert-decimo"&gt;esto es una alerta&lt;/div&gt;</i>
+            </code></pre>
+           </div>
+           <br>
+           <p class="p1">Este es un tercer estilo una alerta diferentes con un borde de estilo recortado</p>
+           <br>
+           <div class="container-fluid">
+            <center>
+              <div class="Bowser-alert reco alert-primero">esto es una alerta</div><br>
+              <div class="Bowser-alert reco alert-segundo">esto es una alerta</div><br>
+              <div class="Bowser-alert reco alert-tercero">esto es una alerta</div><br>
+              <div class="Bowser-alert reco alert-cuarto">esto es una alerta</div><br>
+              <div class="Bowser-alert reco alert-quinto">esto es una alerta</div><br>
+              <div class="Bowser-alert reco alert-sexto">esto es una alerta</div><br>
+              <div class="Bowser-alert reco alert-septimo">esto es una alerta</div><br>
+              <div class="Bowser-alert reco alert-octavo">esto es una alerta</div><br>
+              <div class="Bowser-alert reco alert-noveno">esto es una alerta</div><br>
+              <div class="Bowser-alert reco alert-decimo">esto es una alerta</div><br>
+            </center>
+           </div>
+           <br>
+           <div class="container-fluid">
+            <pre class="pre"><code class="code">
+              <i rel="pre">      &lt;div class="Bowser-alert reco alert-primero"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert reco alert-segundo"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert reco alert-tercero"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert reco alert-cuarto"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert reco alert-quinto"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert reco alert-sexto"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert reco alert-septimo"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert reco alert-octavo"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert reco alert-noveno"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert reco alert-decimo"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;&lt;br&gt;</i>
+            </code></pre>
+           </div>
+           <br>
+           <p class="p1">Tenemos este estilo el cuarto es redondado para abajo</p>
+           <div class="container-fluid">
+            <center>
+              <div class="Bowser-alert second alert-primero">esto es una alerta</div><br>
+              <div class="Bowser-alert second alert-segundo">esto es una alerta</div><br>
+              <div class="Bowser-alert second alert-tercero">esto es una alerta</div><br>
+              <div class="Bowser-alert second alert-cuarto">esto es una alerta</div><br>
+              <div class="Bowser-alert second alert-quinto">esto es una alerta</div><br>
+              <div class="Bowser-alert second alert-sexto">esto es una alerta</div><br>
+              <div class="Bowser-alert second alert-septimo">esto es una alerta</div><br>
+              <div class="Bowser-alert second alert-octavo">esto es una alerta</div><br>
+              <div class="Bowser-alert second alert-noveno">esto es una alerta</div><br>
+              <div class="Bowser-alert second alert-decimo">esto es una alerta</div><br>
+            </center>
+           </div>
+           <br>
+           <div class="container-fluid">
+            <pre class="pre"><code class="code">
+              <i rel="pre">&lt;div class="Bowser-alert second alert-primero"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert second alert-segundo"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert second alert-tercero"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert second alert-cuarto"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert second alert-quinto"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert second alert-sexto"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert second alert-septimo"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert second alert-octavo"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert second alert-noveno"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;
+                &lt;div class="Bowser-alert second alert-decimo"&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;&lt;br&gt;</i>
+            </code></pre>
+           </div>
+           <br>
+           <p class="p1">Y Por ser fiel a nuestra pagina ganaste un estilo de alerta con una imagen de nuestro mejor villano para el cual va dedicada esta pagina es la imagen de bowser en una alerta</p>
+           <br>
+           <div class="container">
+            <center>
+              <div class="Bowser-alert imagen ">esto es una alerta</div>
+            </center>
+           </div>
+           <br>
+           <div class="container-fluid">
+            <pre class="pre"><code class="code">
+              <i rel="pre"> &lt;div class="Bowser-alert imagen "&gt;esto es una alerta&lt;/div&gt;&lt;br&gt;&lt;br&gt;</i>
+            </code></pre>
+           </div>
+           <br>
+           <div class="container-fluid">
+            <div class="container">
+              <table class="table">
+                  <thead>
+                      <tr>
+                          <th>Color</th>
+                          <th>Clase</th>
+                          <th>Representacion</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td data-label="">Amarillo</td>
+                          <td data-label="">alert-primero</td>
+                          <td data-label="">Cuerpo de bowser</td>
+                      </tr>
+                      <tr>
+                          <td data-label="">Rojo oscuro</td>
+                          <td data-label="">alert-segundo</td>
+                          <td data-label="">Cabello de bowser</td>
+                      </tr>
+                      <tr>
+                          <td data-label="">Negro con gris</td>
+                          <td data-label="">alert-tercero</td>
+                          <td data-label="">Utiles de bowser</td>
+                      </tr>
+                      <tr>
+                        <td data-label="">Azul</td>
+                        <td data-label="">alert-cuarto</td>
+                        <td data-label="">Rey pinguino</td>
+                    </tr>
+                    <tr>
+                        <td data-label="">Dorado</td>
+                        <td data-label="">alert-quinto</td>
+                        <td data-label="">Monedas</td>
+                    </tr>
+                    <tr>
+                        <td data-label="">Verde claro</td>
+                        <td data-label="">alert-sexto</td>
+                        <td data-label="">Yoshi o luigui</td>
+                    </tr>
+                    <tr>
+                      <td data-label="">Rosado</td>
+                      <td data-label=""> alert-septimo</td>
+                      <td data-label="">Peach</td>
+                  </tr>
+                  <tr>
+                    <td data-label="">Rojo</td>
+                    <td data-label="">alert-octavo</td>
+                    <td data-label="">Mario</td>
+                </tr>
+                <tr>
+                  <td data-label="">Cafe</td>
+                  <td data-label="">alert-noveno</td>
+                  <td data-label="">Gunball</td>
+              </tr>
+              <tr>
+                <td data-label="">Verde ocuro</td>
+                <td data-label="">alert-decimo</td>
+                <td data-label="">Ambiente,planta,etc</td>
+            </tr>
+                  </tbody>
+              </table>
+            </div>
+           </div>
+           <br>
+           <div class="container-fluid">
+            <div class="container">
+              <table class="table">
+                  <thead>
+                      <tr>
+                          <th>stylo</th>
+                          <th>Clase</th>
+                          <th>Representacion</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td data-label="">1</td>
+                          <td data-label="">-</td>
+                          <td data-label="">Normal</td>
+                      </tr>
+                      <tr>
+                          <td data-label="">2</td>
+                          <td data-label=""> lados</td>
+                          <td data-label="">esquina redonda arriba y abajo</td>
+                      </tr>
+                      <tr>
+                          <td data-label="">3</td>
+                          <td data-label="">reco</td>
+                          <td data-label="">bordes recortado</td>
+                      </tr>
+                      <tr>
+                        <td data-label="">4</td>
+                        <td data-label="">second</td>
+                        <td data-label="">redondeada de esquinas abajo</td>
+                    </tr>
+                    <tr>
+                        <td data-label="">5</td>
+                        <td data-label="">imagen</td>
+                        <td data-label="">imagen</td>
+                    </tr>
+                  </tbody>
+              </table>
+            </div>
+           </div>
+           <br>
+           <h1 class="titulo2">Barra de navegación</h1>
+           <br>
+           <p class="p1">Bowser tiene un solo diseño de barra de navegacion que es la que utiliza nuestra pagina web. Por lo cual propocionamos el siguiente codigo HTML para que lo pueda utilizar. Esta barra de navegacion puede ser modificada dentro del archivo _barra-navegacion.scss .</p>
+           <br>
+           <div class="container-fluid">
+            <pre class="pre">
+              <code class="code">
+                <i rel="pre">&lt;nav class="nav"&gt;
+                  &lt;input type="checkbox" id="check" /&gt;
+                  &lt;label for="check" class="checkbtn"&gt;
+                    &lt;i class="fas fa-bars"&gt;&lt;/i&gt;
+                  &lt;/label&gt;
+                  &lt;a href="#" class="enlace"&gt;
+                    &lt;img src="./img/Logo.png" alt="" class="logo" /&gt;
+                  &lt;/a&gt;
+                  &lt;ul class="lista-desordenada"&gt;
+                    &lt;li class="item"&gt;&lt;a class="active a" href="#Inicio"&gt;Inicio&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="item"&gt;&lt;a href="#Inicio" class="a"&gt;Introducción&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="item"&gt;&lt;a href="#Diseño" class="a"&gt;Diseño&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="item"&gt;&lt;a href="#Componentes" class="a"&gt;Componentes&lt;/a&gt;&lt;/li&gt;
+                  &lt;/ul&gt;
+                  &lt;/nav&gt;
+                </i>
+              </code>
+            </pre>
+           </div>
+           <br>
+           <h1 class="titulo2">Diseño</h1>
+           <br>
+           <div class="container-fluid">
+            <center>
+              <img src="./img/Nav.png" alt="" style="width: 60%; height: auto; border-radius: 10px;">
+            </center>
+          </div>
+          <br>
+          <h1 class="titulo2">Badges</h1>
+          <br>
+          <p class="p1">Documentación y ejemplos para insignias, nuestro pequeño componente de conteo y etiquetado</p>
+          <br>
+          <div class="container-fluid">
+            <center>
+              <span class="Bowser-badge badges-primero">Badges</span>
+              <span class="Bowser-badge badges-segundo">Badges</span>
+              <span class="Bowser-badge badges-tercero">Badges</span><br><br>
+              <span class="Bowser-badge badges-cuarto">Badges</span>
+              <span class="Bowser-badge badges-quinto">Badges</span>
+              <span class="Bowser-badge badges-sexto">Badges</span>
+              <span class="Bowser-badge badges-septimo">Badges</span><br><br>
+              <span class="Bowser-badge badges-octavo">Badges</span>
+              <span class="Bowser-badge badges-noveno">Badges</span>
+              <span class="Bowser-badge badges-decimo">Badges</span>
+            </center>
+          </div>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre"><code class="code">
+              <i rel="pre">    &lt;br&gt;&lt;span class="Bowser-badge badges-primero"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-segundo"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-tercero"&gt;Badges&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+                &lt;span class="Bowser-badge badges-cuarto"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-quinto"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-sexto"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-septimo"&gt;Badges&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+                &lt;span class="Bowser-badge badges-octavo"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-noveno"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-decimo"&gt;Badges&lt;/span&gt;</i>
+            </code></pre>
+          </div>
+          <br>
+          <p class="p1">segundo estilo de badges para pequeño componentes</p>
+          <br>
+          <div class="container-fluid">
+            <center>
+              <span class="Bowser-badge badges-primero ladored">Badges</span>
+              <span class="Bowser-badge badges-segundo ladored">Badges</span>
+              <span class="Bowser-badge badges-tercero ladored">Badges</span><br><br>
+              <span class="Bowser-badge badges-cuarto ladored">Badges</span>
+              <span class="Bowser-badge badges-quinto ladored">Badges</span>
+              <span class="Bowser-badge badges-sexto ladored">Badges</span>
+              <span class="Bowser-badge badges-septimo ladored">Badges</span><br><br>
+              <span class="Bowser-badge badges-octavo ladored">Badges</span>
+              <span class="Bowser-badge badges-noveno ladored">Badges</span>
+              <span class="Bowser-badge badges-decimo ladored">Badges</span>
+            </center>
+          </div>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre"><code class="code">
+              <i rel="pre">&lt;br&gt;&lt;span class="Bowser-badge badges-primero ladored"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-segundo ladored"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-tercero ladored"&gt;Badges&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+                &lt;span class="Bowser-badge badges-cuarto ladored"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-quinto ladored"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-sexto ladored"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-septimo ladored"&gt;Badges&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+                &lt;span class="Bowser-badge badges-octavo ladored"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-noveno ladored"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-decimo ladored"&gt;Badges&lt;/span&gt;
+                &lt;br&gt;&lt;br&gt;</i>
+            </code></pre>
+          </div>
+          <br>
+          <p class="p1">Tercer estilo de badges para pequeño componentes</p>
+          <br>
+          <div class="container-fluid">
+            <center>
+              <span class="Bowser-badge badges-primero ladoredab">Badges</span>
+              <span class="Bowser-badge badges-segundo ladoredab">Badges</span>
+              <span class="Bowser-badge badges-tercero ladoredab">Badges</span><br><br>
+              <span class="Bowser-badge badges-cuarto ladoredab">Badges</span>
+              <span class="Bowser-badge badges-quinto ladoredab">Badges</span>
+              <span class="Bowser-badge badges-sexto ladoredab">Badges</span>
+              <span class="Bowser-badge badges-septimo ladoredab">Badges</span><br><br>
+              <span class="Bowser-badge badges-octavo ladoredab">Badges</span>
+              <span class="Bowser-badge badges-noveno ladoredab">Badges</span>
+              <span class="Bowser-badge badges-decimo ladoredab">Badges</span>
+            </center>
+          </div>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre"><code class="code">
+              <i rel="pre">    &lt;br&gt;&lt;span class="Bowser-badge badges-primero ladoredab"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-segundo ladoredab"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-tercero ladoredab"&gt;Badges&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+                &lt;span class="Bowser-badge badges-cuarto ladoredab"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-quinto ladoredab"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-sexto ladoredab"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-septimo ladoredab"&gt;Badges&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+                &lt;span class="Bowser-badge badges-octavo ladoredab"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-noveno ladoredab"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-decimo ladoredab"&gt;Badges&lt;/span&gt;
+                &lt;br&gt;&lt;br&gt;</i>
+            </code></pre>
+          </div>
+          <br>
+          <p class="p1">cuarto estilo de badges para pequeño componentes</p>
+          <br>
+          <div class="container-fluid">
+            <center>
+              <span class="Bowser-badge badges-primero dashed">Badges</span>
+              <span class="Bowser-badge badges-segundo dashed">Badges</span>
+              <span class="Bowser-badge badges-tercero dashed">Badges</span><br><br>
+              <span class="Bowser-badge badges-cuarto dashed">Badges</span>
+              <span class="Bowser-badge badges-quinto dashed">Badges</span>
+              <span class="Bowser-badge badges-sexto dashed">Badges</span>
+              <span class="Bowser-badge badges-septimo dashed">Badges</span><br><br>
+              <span class="Bowser-badge badges-octavo dashed">Badges</span>
+              <span class="Bowser-badge badges-noveno dashed">Badges</span>
+              <span class="Bowser-badge badges-decimo dashed">Badges</span>
+            </center>
+          </div>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre"><code class="code">
+              <i rel="pre">    &lt;br&gt;&lt;span class="Bowser-badge badges-primero dashed"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-segundo dashed"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-tercero dashed"&gt;Badges&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+                &lt;span class="Bowser-badge badges-cuarto dashed"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-quinto dashed"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-sexto dashed"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-septimo dashed"&gt;Badges&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+                &lt;span class="Bowser-badge badges-octavo dashed"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-noveno dashed"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-decimo dashed"&gt;Badges&lt;/span&gt;
+                &lt;br&gt;&lt;br&gt;</i>
+            </code></pre>
+          </div>
+          <br>
+          <p class="p1">Quinto estilo de badges para pequeño componentes</p>
+          <br>
+          <div class="container-fluid">
+            <center>
+              <span class="Bowser-badge badges-primero sess">Badges</span>
+              <span class="Bowser-badge badges-segundo sess">Badges</span>
+              <span class="Bowser-badge badges-tercero sess">Badges</span><br><br>
+              <span class="Bowser-badge badges-cuarto sess">Badges</span>
+              <span class="Bowser-badge badges-quinto sess">Badges</span>
+              <span class="Bowser-badge badges-sexto sess">Badges</span>
+              <span class="Bowser-badge badges-septimo sess">Badges</span><br><br>
+              <span class="Bowser-badge badges-octavo sess">Badges</span>
+              <span class="Bowser-badge badges-noveno sess">Badges</span>
+              <span class="Bowser-badge badges-decimo sess">Badges</span>
+            </center>
+          </div>
+          <br>
+          <div class="container-fluid">
+            <pre class="pre"><code class="code">
+              <i rel="pre">    &lt;br&gt;&lt;span class="Bowser-badge badges-primero sess"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-segundo sess"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-tercero sess"&gt;Badges&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+                &lt;span class="Bowser-badge badges-cuarto sess"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-quinto sess"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-sexto sess"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-septimo sess"&gt;Badges&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+                &lt;span class="Bowser-badge badges-octavo sess"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-noveno sess"&gt;Badges&lt;/span&gt;
+                &lt;span class="Bowser-badge badges-decimo sess"&gt;Badges&lt;/span&gt;
+                &lt;br&gt;&lt;br&gt;</i>
+            </code></pre>
+          </div>
+          <br>
+          <div class="container-fluid">
+            <div class="container">
+              <table class="table">
+                  <thead>
+                      <tr>
+                          <th>Color</th>
+                          <th>Clase</th>
+                          <th>Representacion</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td data-label="">Amarillo</td>
+                          <td data-label="">badges-primero</td>
+                          <td data-label="">Cuerpo de bowser</td>
+                      </tr>
+                      <tr>
+                          <td data-label="">Rojo oscuro</td>
+                          <td data-label="">badges-segundo</td>
+                          <td data-label="">Cabello de bowser</td>
+                      </tr>
+                      <tr>
+                          <td data-label="">Negro con gris</td>
+                          <td data-label="">badges-tercero</td>
+                          <td data-label="">Utiles de bowser</td>
+                      </tr>
+                      <tr>
+                        <td data-label="">Azul</td>
+                        <td data-label="">badges-cuarto</td>
+                        <td data-label="">Rey pinguino</td>
+                    </tr>
+                    <tr>
+                        <td data-label="">Dorado</td>
+                        <td data-label="">badges-quinto</td>
+                        <td data-label="">Monedas</td>
+                    </tr>
+                    <tr>
+                        <td data-label="">Verde claro</td>
+                        <td data-label="">badges-sexto</td>
+                        <td data-label="">Yoshi o luigui</td>
+                    </tr>
+                    <tr>
+                      <td data-label="">Rosado</td>
+                      <td data-label="">badges-septimo</td>
+                      <td data-label="">Peach</td>
+                  </tr>
+                  <tr>
+                    <td data-label="">Rojo</td>
+                    <td data-label="">badges-octavo</td>
+                    <td data-label="">Mario</td>
+                </tr>
+                <tr>
+                  <td data-label="">Cafe</td>
+                  <td data-label="">badges-noveno</td>
+                  <td data-label="">Gunball</td>
+              </tr>
+              <tr>
+                <td data-label="">Verde ocuro</td>
+                <td data-label="">badges-decimo</td>
+                <td data-label="">Ambiente,planta,etc</td>
+            </tr>
+                  </tbody>
+              </table>
+          </div>
+          </div>
+          <br>
+          <div class="container-fluid">
+            <div class="container">
+              <table class="table">
+                  <thead>
+                      <tr>
+                          <th>stylo</th>
+                          <th>Clase</th>
+                          <th>Representacion</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td data-label="">1</td>
+                          <td data-label="">-</td>
+                          <td data-label="">Normal</td>
+                      </tr>
+                      <tr>
+                          <td data-label="">2</td>
+                          <td data-label="">ladored</td>
+                          <td data-label="">Montaña inversa</td>
+                      </tr>
+                      <tr>
+                          <td data-label="">3</td>
+                          <td data-label="">ladoredab</td>
+                          <td data-label="">Montaña</td>
+                      </tr>
+                      <tr>
+                        <td data-label="">4</td>
+                        <td data-label="">dashed</td>
+                        <td data-label="">Bordes recortado</td>
+                    </tr>
+                    <tr>
+                        <td data-label="">5</td>
+                        <td data-label="">sess</td>
+                        <td data-label="">Marcos</td>
+                    </tr>
+                  </tbody>
+              </table>
+            </div>
+          </div>
+          <br>
+        </section>
+      </div>  
+    </div>  
+      <div class="footer">
+        <div class="Ñogo">
+          <img class="logo_footer" src="./img/Logo.png" width="600px" height="300px" alt="">
+          <div class="Todo">
+            <h1 class="titulo4">Developers</h1>
+            <p class="p1">Jose Antonio Martinez Jovel</p>
+            <p class="p1">René Alexander Barrera Flores</p>
+            <p class="p1">Brayan Josue Granados</p>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "bowser_library",
+  "version": "0.0.1",
+  "description": "proyecto de libreria tipo bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass --watch ./sass/main.scss ./css/main.css"
+  },
+  "author": "Jose Antonio",
+  "license": "ISC"
+}
