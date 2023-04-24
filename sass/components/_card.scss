@@ -1,0 +1,76 @@
+@use '../clases_utilitarias/variables';
+
+
+
+.card {
+    font-family:'Poppins';
+    background-color:#dd0303;
+    width: 25rem;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #fff;
+
+    img{
+        width: 350px;
+        margin: 5px;
+        border-radius: 10px;
+    }
+
+    .card_content {
+        padding: 10px;
+        
+    }
+
+    .card_title {
+        margin: 2px;
+        color: white;
+    }
+
+    .card_title_center {
+        margin: 2px;
+        color: black;
+        text-align: center;
+    }
+
+    .card_description {
+        margin: 0;
+        color: black;
+    }
+
+    .card_description_center{
+        margin: 0;
+        text-align: center;
+        color: #999;
+    }
+
+    &_dark {
+        
+    .card_description-dark {
+        margin: 0;
+        color: white;
+    }
+
+        background-color: black;
+
+        .card_title {
+            color: white;
+        }
+    }
+
+    &_transparent{
+        background: transparent;
+        border:solid black;
+
+        .card_title_transparent{
+            color: black;
+            text-align: center;
+        }
+
+        .card_description{
+            color: #000;
+        }
+    }
+
+    
+}

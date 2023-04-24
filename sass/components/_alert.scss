@@ -1,0 +1,148 @@
+$Bowser-alert-padding: 15px;
+$Bowser-alert-border-width: 1px;
+$Bowser-alert-border-radius: 3px;
+
+// Alerta con gradiente primero
+$Bowser-alert-primero-background: linear-gradient(to bottom, #F5C933 ,#F8DD56,#F8DD56 , #F5C933);
+$Bowser-alert-primero-border-color: darken(#080100 , 10%);
+$Bowser-alert-primero-text-color: #000;
+
+// Alerta con gradiente segundo
+$Bowser-alert-segundo-background: linear-gradient(to bottom, #D12409 , #E23418,#E23418,#D12409 );
+$Bowser-alert-segundo-border-color: darken(#080100 , 10%);
+$Bowser-alert-segundo-text-color: #222121;
+
+// Alerta con gradiente tercero
+$Bowser-alert-tercero-background: linear-gradient(to bottom, #151312  , #B7B2B1,#B7B2B1  ,#151312  );
+$Bowser-alert-tercero-border-color: darken(#080100 , 10%);
+$Bowser-alert-tercero-text-color: #000;
+
+// Alerta con gradiente cuarto
+$Bowser-alert-cuarto-background: linear-gradient(to bottom, #184E75 , #0E7ED1 ,#0E7ED1  ,#184E75  );
+$Bowser-alert-cuarto-border-color: darken(#080100 , 10%);
+$Bowser-alert-cuarto-text-color: #000;
+
+// Alerta con gradiente quinto
+$Bowser-alert-quinto-background: linear-gradient(to bottom, #B79409  , #DFC768  ,#DFC768  ,#B79409   );
+$Bowser-alert-quinto-border-color: darken(#080100 , 10%);
+$Bowser-alert-quinto-text-color: #000;
+
+// Alerta con gradiente sexto
+$Bowser-alert-sexto-background: linear-gradient(to bottom, #4CD012 , #53C222  ,#53C222 ,#4CD012 );
+$Bowser-alert-sexto-border-color: darken(#080100 , 10%);
+$Bowser-alert-sexto-text-color: #000;
+
+// Alerta con gradiente septimo
+$Bowser-alert-septimo-background: linear-gradient(to bottom, #E159C3 , #F8A2F2  ,#F8A2F2   ,#E159C3 );
+$Bowser-alert-septimo-border-color: darken(#080100 , 10%);
+$Bowser-alert-septimo-text-color: #000;
+
+// Alerta con gradiente octavo
+$Bowser-alert-octavo-background: linear-gradient(to bottom, #F20B22  , #DD0E23  ,#DD0E23   ,#F20B22   );
+$Bowser-alert-octavo-border-color: darken(#080100 , 10%);
+$Bowser-alert-octavo-text-color: #000;
+
+// Alerta con gradiente noveno
+$Bowser-alert-noveno-background: linear-gradient(to bottom, #935311  , #864909  ,#864909   ,#935311  );
+$Bowser-alert-noveno-border-color: darken(#080100 , 10%);
+$Bowser-alert-noveno-text-color: #000;
+
+// Alerta con gradiente decimo
+$Bowser-alert-decimo-background: linear-gradient(to bottom, #ABC80F , #7C8F11 ,#7C8F11  ,#ABC80F );
+$Bowser-alert-decimo-border-color: darken(#080100 , 10%);
+$Bowser-alert-decimo-text-color: #000;
+
+//segunda alerta
+$Bowser-alert-border-radius-2:80rem 0rem 80rem 0rem;
+//tercera alerta
+$Bowser-alert-border-dashed:dashed;
+//cuarta 
+$Bowser-alert-border-second:25rem 25rem 50rem 50rem;
+//alerta imagen
+$Bowser-alert-border-simagen:10%;
+$Bowser-alert-border-imagen:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT44CdmvHTbkIJYTePpJg_6maBBnEyS2ZBj6w&usqp=CAU");
+
+.Bowser-alert {
+  padding: $Bowser-alert-padding;
+  border: $Bowser-alert-border-width solid;
+  border-radius: $Bowser-alert-border-radius;
+
+
+  &.lados{
+    border-radius: $Bowser-alert-border-radius-2;
+  }
+  
+  &.reco{
+   border: $Bowser-alert-border-dashed;
+  }
+
+  &.second{
+     border-radius:$Bowser-alert-border-second;
+   }
+
+  &.imagen{
+    background-size:$Bowser-alert-border-simagen;
+    background-image:$Bowser-alert-border-imagen;
+}
+
+&.alert-primero {
+    background: $Bowser-alert-primero-background;
+    border-color: $Bowser-alert-primero-border-color;
+    color: $Bowser-alert-primero-text-color;
+  }
+
+  &.alert-segundo {
+    background: $Bowser-alert-segundo-background;
+    border-color: $Bowser-alert-segundo-border-color;
+    color: $Bowser-alert-segundo-text-color;
+  }
+
+  &.alert-tercero {
+    background: $Bowser-alert-tercero-background;
+    border-color: $Bowser-alert-tercero-border-color;
+    color: $Bowser-alert-tercero-text-color;
+  }
+
+  &.alert-cuarto {
+    background: $Bowser-alert-cuarto-background;
+    border-color: $Bowser-alert-cuarto-border-color;
+    color: $Bowser-alert-cuarto-text-color;
+  }
+
+  &.alert-quinto {
+    background: $Bowser-alert-quinto-background;
+    border-color: $Bowser-alert-quinto-border-color;
+    color: $Bowser-alert-quinto-text-color;
+  }
+
+  &.alert-sexto {
+    background: $Bowser-alert-sexto-background;
+    border-color: $Bowser-alert-sexto-border-color;
+    color: $Bowser-alert-sexto-text-color;
+  }
+
+  &.alert-septimo {
+    background: $Bowser-alert-septimo-background;
+    border-color: $Bowser-alert-septimo-border-color;
+    color: $Bowser-alert-septimo-text-color;
+  }
+
+  &.alert-octavo {
+    background: $Bowser-alert-octavo-background;
+    border-color: $Bowser-alert-octavo-border-color;
+    color: $Bowser-alert-octavo-text-color;
+  }
+
+  &.alert-noveno {
+    background: $Bowser-alert-noveno-background;
+    border-color: $Bowser-alert-noveno-border-color;
+    color: $Bowser-alert-noveno-text-color;
+  }
+
+  &.alert-decimo {
+    background: $Bowser-alert-decimo-background;
+    border-color: $Bowser-alert-decimo-border-color;
+    color: $Bowser-alert-decimo-text-color;
+  }
+
+}

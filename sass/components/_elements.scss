@@ -1,0 +1,30 @@
+
+.field-container{
+    font-family: 'Courier New', Courier, monospace;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial;
+
+}
+
+.textarea{
+    &:hover{
+        box-shadow: 2px 2px 2px 2px;
+        color: blue;
+    }
+}
+
+.control{
+    margin: 10px;
+    padding: 10px;
+}
+
+
+textarea{
+    height: 80px;
+}
+
+
+
+

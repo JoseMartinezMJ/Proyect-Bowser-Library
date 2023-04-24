@@ -1,0 +1,103 @@
+$colores:(yellow,red,lightpink, green, #151c22, blue, orange);
+$nombre:("Bowser", "Mario", "Peach", "Luigi", "Toadette", "Toad","Yoshi");
+
+$blanco:white;
+
+
+
+@mixin Baseboton($varcolor){
+   @media(max-width:919px){
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+   }
+
+  // position: relative;
+   overflow: hidden;
+   transition: all 300ms ease;
+   background-color: $varcolor;
+   width: 150px;
+   height:50px;
+   border-radius: 20px;
+   font-family: fantasy;
+   font-size: 15px;
+
+}
+//Esta animacion puede servir para crear diferente botones
+@mixin LuzAnima($varcolor){
+    &:hover{
+
+        box-shadow: 0 0 10px $varcolor ,0 0 20px $varcolor, 0 0 20px $varcolor;
+
+    }
+    &:hover{
+        color: white;
+    }
+}
+
+@mixin LuznAbajo($varcolor){
+    &:hover{
+
+        box-shadow: 0 10px 0px $varcolor,0 0px 0 $varcolor, 0 0px 0 $varcolor;
+
+    }
+    &:hover{
+        color: white;
+    }
+}
+
+@mixin Luzdiagonal($varcolor){
+    &:hover{
+
+
+        box-shadow: 20px 10px 0 $varcolor ,0 0 0 $varcolor, 0 0 0 $varcolor;
+
+    }
+    &:hover{
+        color: white;
+    }
+}
+
+@mixin Luzrandom($varcolor){
+    &:hover{
+
+        box-shadow: 0px 10px 30px $varcolor ,0 0 0 $varcolor, 0 0 0 $varcolor;
+    }
+    &:hover{
+        color: white;
+    }
+   
+}
+
+
+@for $intel from 1 through 7{
+
+    $luzano:nth($nombre , $intel);
+
+    .btn-#{$luzano}-LUZ
+    {
+        @include Baseboton(nth($colores,$intel));
+        @include LuzAnima(nth($colores,$intel));
+    }
+
+    .btn-#{$luzano}-Abajo
+    {
+        @include Baseboton(nth($colores,$intel));
+        @include LuznAbajo(nth($colores,$intel));
+    }
+
+    .btn-#{$luzano}-left
+    {
+        @include Baseboton(nth($colores,$intel));
+        @include Luzdiagonal(nth($colores,$intel));
+    }
+
+    .btn-#{$luzano}-hongo
+    {
+        @include Baseboton(nth($colores,$intel));
+        @include Luzrandom(nth($colores,$intel));
+    }
+
+}
+

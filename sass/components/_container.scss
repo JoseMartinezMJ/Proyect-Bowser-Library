@@ -1,0 +1,169 @@
+@use '../clases_utilitarias/size';
+@use'../clases_utilitarias/margin-padding-border';
+@use'../clases_utilitarias/variables';
+@use'../clases_utilitarias/color';
+@use'../clases_utilitarias/breakpoints';
+
+//Estilos de contenedores
+.container{
+    @include margin-padding-border.margin(0);
+    @include margin-padding-border.padding(0);
+    @include margin-padding-border.border(0);
+    @include breakpoints.breakpoints_min(sm){
+        @include size.size(100%,100vh);
+    }
+    @include breakpoints.breakpoints_max(sm){
+        @include size.size(540px, auto);
+    }
+    @include breakpoints.breakpoints_min(md){
+        @include size.size(720px, auto);
+    }
+    @include breakpoints.breakpoints_min(lg){
+        @include size.size(960px, auto);
+    }
+    @include breakpoints.breakpoints_min(xl){
+        @include size.size(1140px, auto);
+    }
+    @include breakpoints.breakpoints_min(xxl){
+        @include size.size(1400px, auto);
+    }
+}
+.container-sm{
+    @include margin-padding-border.margin(0);
+    @include margin-padding-border.padding(0);
+    @include margin-padding-border.border(0);
+    @include breakpoints.breakpoints_min(sm){
+        @include size.size(100%,100vh);
+    }
+    @include breakpoints.breakpoints_max(sm){
+        @include size.size(540px, auto);
+    }
+    @include breakpoints.breakpoints_min(md){
+        @include size.size(720px, auto);
+    }
+    @include breakpoints.breakpoints_min(lg){
+        @include size.size(960px, auto);
+    }
+    @include breakpoints.breakpoints_min(xl){
+        @include size.size(1140px, auto);
+    }
+    @include breakpoints.breakpoints_min(xxl){
+        @include size.size(1400px, auto);
+    }
+}
+.container-md{
+    @include margin-padding-border.margin(0);
+    @include margin-padding-border.padding(0);
+    @include margin-padding-border.border(0);
+    @include breakpoints.breakpoints_min(sm){
+        @include size.size(100%,100vh);
+    }
+    @include breakpoints.breakpoints_max(sm){
+        @include size.size(100%, auto);
+    }
+    @include breakpoints.breakpoints_min(md){
+        @include size.size(720px, auto);
+    }
+    @include breakpoints.breakpoints_min(lg){
+        @include size.size(960px, auto);
+    }
+    @include breakpoints.breakpoints_min(xl){
+        @include size.size(1140px, auto);
+    }
+    @include breakpoints.breakpoints_min(xxl){
+        @include size.size(1400px, auto);
+    }
+}
+.container-lg{
+    @include margin-padding-border.margin(0);
+    @include margin-padding-border.padding(0);
+    @include margin-padding-border.border(0);
+    @include breakpoints.breakpoints_min(sm){
+        @include size.size(100%,100vh);
+    }
+    @include breakpoints.breakpoints_max(sm){
+        @include size.size(100%, auto);
+    }
+    @include breakpoints.breakpoints_min(md){
+        @include size.size(100%, auto);
+    }
+    @include breakpoints.breakpoints_min(lg){
+        @include size.size(960px, auto);
+    }
+    @include breakpoints.breakpoints_min(xl){
+        @include size.size(1140px, auto);
+    }
+    @include breakpoints.breakpoints_min(xxl){
+        @include size.size(1400px, auto);
+    }
+}
+.container-xl{
+    @include margin-padding-border.margin(0);
+    @include margin-padding-border.padding(0);
+    @include margin-padding-border.border(0);
+    @include breakpoints.breakpoints_min(sm){
+        @include size.size(100%,100vh);
+    }
+    @include breakpoints.breakpoints_max(sm){
+        @include size.size(100%, auto);
+    }
+    @include breakpoints.breakpoints_min(md){
+        @include size.size(100%, auto);
+    }
+    @include breakpoints.breakpoints_min(lg){
+        @include size.size(100%, auto);
+    }
+    @include breakpoints.breakpoints_min(xl){
+        @include size.size(1140px, auto);
+    }
+    @include breakpoints.breakpoints_min(xxl){
+        @include size.size(1400px, auto);
+    }
+}
+.container-xxl{
+    @include margin-padding-border.margin(0);
+    @include margin-padding-border.padding(0);
+    @include margin-padding-border.border(0);
+    @include breakpoints.breakpoints_min(sm){
+        @include size.size(100%,100vh);
+    }
+    @include breakpoints.breakpoints_max(sm){
+        @include size.size(100%, auto);
+    }
+    @include breakpoints.breakpoints_min(md){
+        @include size.size(100%, auto);
+    }
+    @include breakpoints.breakpoints_min(lg){
+        @include size.size(100%, auto);
+    }
+    @include breakpoints.breakpoints_min(xl){
+        @include size.size(100%, auto);
+    }
+    @include breakpoints.breakpoints_min(xxl){
+        @include size.size(1400px, auto);
+    }
+
+}
+.container-fluid{
+    @include margin-padding-border.margin(0);
+    @include margin-padding-border.padding(0);
+    @include margin-padding-border.border(0);
+    @include breakpoints.breakpoints_min(sm){
+        @include size.size(100%,auto);
+    }
+    @include breakpoints.breakpoints_max(sm){
+        @include size.size(100%, auto);
+    }
+    @include breakpoints.breakpoints_min(md){
+        @include size.size(100%, auto);
+    }
+    @include breakpoints.breakpoints_min(lg){
+        @include size.size(100%, auto);
+    }
+    @include breakpoints.breakpoints_min(xl){
+        @include size.size(100%, auto);
+    }
+    @include breakpoints.breakpoints_min(xxl){
+        @include size.size(100%, auto);
+    }
+}

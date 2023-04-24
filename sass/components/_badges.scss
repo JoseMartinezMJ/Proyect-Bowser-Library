@@ -1,0 +1,155 @@
+//variables
+$Bowser-badge-bg-color:solid #000 0.1rem;
+$Bowser-badge-text-color: #090304;
+$Bowser-badge-font-size: 0.8rem;
+$Bowser-badge-font-weight: bold;
+$Bowser-badge-padding: 0.25rem 0.5rem;
+$Bowser-badge-border-radius: 0.25rem;
+$Bowser-badge-padding-inline-block:inline-block;
+
+// badges con gradiente primero
+$Bowser-badges-primero-background: linear-gradient(to bottom, #F5C933 ,#F8DD56,#F8DD56 , #F5C933);
+$Bowser-badges-primero-border-color: darken(#080100 , 10%);
+$Bowser-badges-primero-text-color: #000;
+
+// badges con gradiente segundo
+$Bowser-badges-segundo-background: linear-gradient(to bottom, #D12409 , #E23418,#E23418,#D12409 );
+$Bowser-badges-segundo-border-color: darken(#080100 , 10%);
+$Bowser-badges-segundo-text-color: #222121;
+
+// badges con gradiente tercero
+$Bowser-badges-tercero-background: linear-gradient(to bottom, #151312  , #B7B2B1,#B7B2B1  ,#151312  );
+$Bowser-badges-tercero-border-color: darken(#080100 , 10%);
+$Bowser-badges-tercero-text-color: #000;
+
+// badges con gradiente cuarto
+$Bowser-badges-cuarto-background: linear-gradient(to bottom, #184E75 , #0E7ED1 ,#0E7ED1  ,#184E75  );
+$Bowser-badges-cuarto-border-color: darken(#080100 , 10%);
+$Bowser-badges-cuarto-text-color: #000;
+
+// badges con gradiente quinto
+$Bowser-badges-quinto-background: linear-gradient(to bottom, #B79409  , #DFC768  ,#DFC768  ,#B79409   );
+$Bowser-badges-quinto-border-color: darken(#080100 , 10%);
+$Bowser-badges-quinto-text-color: #000;
+
+// badges con gradiente sexto
+$Bowser-badges-sexto-background: linear-gradient(to bottom, #4CD012 , #53C222  ,#53C222 ,#4CD012 );
+$Bowser-badges-sexto-border-color: darken(#080100 , 10%);
+$Bowser-badges-sexto-text-color: #000;
+
+// badges con gradiente septimo
+$Bowser-badges-septimo-background: linear-gradient(to bottom, #E159C3 , #F8A2F2  ,#F8A2F2   ,#E159C3 );
+$Bowser-badges-septimo-border-color: darken(#080100 , 10%);
+$Bowser-badges-septimo-text-color: #000;
+
+// badges con gradiente octavo
+$Bowser-badges-octavo-background: linear-gradient(to bottom, #F20B22  , #DD0E23  ,#DD0E23   ,#F20B22   );
+$Bowser-badges-octavo-border-color: darken(#080100 , 10%);
+$Bowser-badges-octavo-text-color: #000;
+
+// badges con gradiente noveno
+$Bowser-badges-noveno-background: linear-gradient(to bottom, #935311  , #864909  ,#864909   ,#935311  );
+$Bowser-badges-noveno-border-color: darken(#080100 , 10%);
+$Bowser-badges-noveno-text-color: #000;
+
+// badges con gradiente decimo
+$Bowser-badges-decimo-background: linear-gradient(to bottom, #ABC80F , #7C8F11 ,#7C8F11  ,#ABC80F );
+$Bowser-badges-decimo-border-color: darken(#080100 , 10%);
+$Bowser-badges-decimo-text-color: #000;
+
+
+
+$Bowser-badge-radius-ladored: 0px 0px 50px 50px;
+
+$Bowser-badge-radius-ladordab:50px 50px 0px 0px;
+
+$Bowser-badge-radius-dashed:dashed;
+
+$Bowser-badge-radius-outset:outset;
+.Bowser-badge {
+  display: $Bowser-badge-padding-inline-block;
+  padding: $Bowser-badge-padding;
+  font-size: $Bowser-badge-font-size;
+  font-weight: $Bowser-badge-font-weight;
+  color: $Bowser-badge-text-color;
+  border: $Bowser-badge-bg-color;
+  border-radius: $Bowser-badge-border-radius;
+
+  
+  &.ladored{
+    border-radius:$Bowser-badge-radius-ladored;
+  }
+
+  &.ladoredab{
+    border-radius: $Bowser-badge-radius-ladordab;
+  }
+
+  &.dashed
+  {
+    border: $Bowser-badge-radius-dashed;
+  }
+  &.sess
+  {
+    border: $Bowser-badge-radius-outset;
+  }
+
+  &.badges-primero {
+    background: $Bowser-badges-primero-background;
+    border-color: $Bowser-badges-primero-border-color;
+    color: $Bowser-badges-primero-text-color;
+  }
+
+  &.badges-segundo {
+    background: $Bowser-badges-segundo-background;
+    border-color: $Bowser-badges-segundo-border-color;
+    color: $Bowser-badges-segundo-text-color;
+  }
+
+  &.badges-tercero {
+    background: $Bowser-badges-tercero-background;
+    border-color: $Bowser-badges-tercero-border-color;
+    color: $Bowser-badges-tercero-text-color;
+  }
+
+  &.badges-cuarto {
+    background: $Bowser-badges-cuarto-background;
+    border-color: $Bowser-badges-cuarto-border-color;
+    color: $Bowser-badges-cuarto-text-color;
+  }
+
+  &.badges-quinto {
+    background: $Bowser-badges-quinto-background;
+    border-color: $Bowser-badges-quinto-border-color;
+    color: $Bowser-badges-quinto-text-color;
+  }
+
+  &.badges-sexto {
+    background: $Bowser-badges-sexto-background;
+    border-color: $Bowser-badges-sexto-border-color;
+    color: $Bowser-badges-sexto-text-color;
+  }
+
+  &.badges-septimo {
+    background: $Bowser-badges-septimo-background;
+    border-color: $Bowser-badges-septimo-border-color;
+    color: $Bowser-badges-septimo-text-color;
+  }
+
+  &.badges-octavo {
+    background: $Bowser-badges-octavo-background;
+    border-color: $Bowser-badges-octavo-border-color;
+    color: $Bowser-badges-octavo-text-color;
+  }
+
+  &.badges-noveno {
+    background: $Bowser-badges-noveno-background;
+    border-color: $Bowser-badges-noveno-border-color;
+    color: $Bowser-badges-noveno-text-color;
+  }
+
+  &.badges-decimo {
+    background: $Bowser-badges-decimo-background;
+    border-color: $Bowser-badges-decimo-border-color;
+    color: $Bowser-badges-decimo-text-color;
+  }
+}

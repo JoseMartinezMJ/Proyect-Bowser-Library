@@ -1,0 +1,99 @@
+@use'../clases_utilitarias/variables';@use'../clases_utilitarias/margin-padding-border';@use'../clases_utilitarias/color'; @use '../clases_utilitarias/redondear';
+@use'../clases_utilitarias/size';@use '../clases_utilitarias/movimineto-elementos';@use '../clases_utilitarias/ocultar-elementos';@use '../clases_utilitarias/texto';
+@use '../clases_utilitarias/columnas-filas-grid';
+*{
+  @include margin-padding-border.padding(0);
+  @include margin-padding-border.margin(0);
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.nav{
+  @include color.fondo($red);
+  @include size.size(100%,80px);
+  position: fixed;
+}
+.enlace{
+  @include movimineto-elementos.position(absolute,none,none,none,none);
+  @include margin-padding-border.padding(20px 50px);
+}
+.logo{
+  @include size.size(none,40px);
+}
+.nav{
+  .lista-desordenada{
+    @include movimineto-elementos.movimiento(right);
+    margin-right: 20px;
+  } 
+}
+.nav{
+  .lista-desordenada{
+    .item{
+      @include ocultar-elementos.display(inline-block);
+      @include margin-padding-border.margin(0 5px);
+      line-height: 80px;
+    }
+  }
+}
+.nav .lista-desordenada .item .a{
+  
+  @include color.color($white);
+  @include texto.modificartexto(none,18px,none,none);
+  @include margin-padding-border.padding(7px 13px);
+  @include redondear.redondear(3px);
+  text-transform: uppercase;
+}
+.item .a.active, .item .a:hover{
+  @include color.fondo($grey);
+  transition: .5s;
+}
+.checkbtn{
+  @include color.color($white);
+  @include texto.modificartexto(none,30px,none,none);
+  @include movimineto-elementos.movimiento(right);
+  @include ocultar-elementos.display(none);
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+#check{
+  @include ocultar-elementos.display(none);
+}
+@media (max-width: 952px){
+  .enlace{
+      padding-left: 20px;
+  }
+  .nav .lista-desordenada .item .a{
+      @include texto.modificartexto(none,16px,none,none);  
+  }
+}
+
+@media (max-width: 858px){
+  .checkbtn{
+      @include ocultar-elementos.display(block);
+  }
+  .lista-desordenada{
+      @include size.size(100%,100vh);
+      @include color.fondo($grey);
+      @include movimineto-elementos.position(fixed,80px,-100%,none,none);
+      text-align: center;
+      transition: all .5s;
+  }
+  .nav .lista-desordenada .item{
+      @include ocultar-elementos.display(block);
+      @include margin-padding-border.margin(50px 0);
+      line-height: 30px;
+  }
+  .nav .lista-desordenada .item .a{
+      @include texto.modificartexto(none,20px,none,none);  
+  }
+  .a:hover{
+      background: none;
+      @include color.color($red);
+      transition: all .5s;
+  }
+  #check:checked ~ .lista-desordenada{
+      left:0;
+  }
+}
