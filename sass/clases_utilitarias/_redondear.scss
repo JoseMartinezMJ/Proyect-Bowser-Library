@@ -1,0 +1,4 @@
+//funcion para redonder elementos
+@mixin redondear($propiedad){
+    border-radius: $propiedad;
+}

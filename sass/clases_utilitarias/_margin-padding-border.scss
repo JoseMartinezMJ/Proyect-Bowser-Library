@@ -1,0 +1,20 @@
+//Funciones para agregar margin padding y border
+@mixin padding($padding){
+    padding: $padding;
+}
+@mixin margin($margin){
+    margin: $margin;
+}
+@mixin border($border){
+    border: $border;
+}
+//Clases directas para agregar margin padding y border a etiquetas html.
+.padding{
+    @include padding(1px);
+}
+.margin{
+    @include margin(1px);
+}
+.border{
+    @include border(1px);
+}

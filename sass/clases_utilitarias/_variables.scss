@@ -1,0 +1,55 @@
+//Tema de colores
+$primary: #0d6efd;
+$secondary:#adb5bd;
+$success:#198754;
+$danger:#dc3545;
+$warning:#ffc107;
+$info:#0dcaf0;
+$ligth:#fff;
+$dark:#000;
+
+//Colores
+$white:#ffffff;
+$red:#f8230f;
+$blue:#2a12f0;
+$green:#339b28;
+$yellow:#ffff00;
+$black:#000000;
+$orange:#ff7624;
+$grey:#2c3e50;
+$greylight:#f3f3f3;
+$blueblack:#151c22;
+
+//Tamaño de letras
+$big: 60px;
+$medium: 35px;
+$small:20px;
+$smaller: 10px;
+//Tipo de letra
+
+$fonts: 'Poppins', Helvetica, sans-serif;
+$fontfamily1:Arial, Helvetica, Verdana;
+$fontfamily2:'Times New Roman', Times, serif;
+$fontfamily3:Verdana, Geneva, Tahoma, sans-serif;
+
+//Grosor de letra
+$font-weight1:bolder;
+$font-weight2:bold;
+$font-weight3:lighter;
+
+//breakpoints
+$breakpoints: (
+  xs: 0px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+//Variables de card
+$fonts: 'Poppins', Helvetica, sans-serif;
+$primary-color: #ab99ca;
+$spacing: 2rem;
+$dark-grey: #999;
+

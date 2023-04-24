@@ -1,0 +1,66 @@
+@import'variables';
+
+//Funcion que modifica texto
+@mixin modificartexto ($color,$size,$font,$font-weight){
+    color: $color;
+    font-size: $size;
+    font-family: $font;
+    font-weight: $font-weight;
+}
+//Clases directa de tipos de titulos predeterminados
+.titulo1{
+    @include modificartexto($black,$big,$fontfamily1,$font-weight1);
+    padding: 5px;
+}
+.titulo2{
+    @include modificartexto($grey,$medium,$fontfamily1,$font-weight1);
+    padding: 5px;
+}
+.titulo3{
+    @include modificartexto($black,$small,$fontfamily3,$font-weight3);
+    padding: 5px;
+    
+}
+
+.titulo4{
+    @include modificartexto($white,$small,$fontfamily3,$font-weight3);
+    padding: 5px
+}
+//Clases directa de tipos de titulos predeterminados
+.p1{
+    @include modificartexto($grey,$small,$fontfamily1,none);
+    text-align: justify;
+    padding: 5px;
+}
+.p2{
+    @include modificartexto($grey,$smaller,$fontfamily2,$font-weight2);
+    text-align: justify;
+    padding: 5px;
+}
+.p3{
+    @include modificartexto($grey,$smaller,$fontfamily3,$font-weight3);
+    text-align: justify;
+    padding: 5px;
+}
+.text-color-black{
+    color: $black;
+}
+.text-color-white{
+    color: $white;
+}
+@media (max-width: 952px){
+    .titulo1{
+        font-size: 70px;
+    }
+    .titulo2{
+        font-size: 60px;
+    }
+}
+@media (max-width: 858px){
+    .titulo1{
+        font-size: 40px;
+    }
+    .titulo2{
+        font-size: 30px;
+    }
+}
